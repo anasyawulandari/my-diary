@@ -1,0 +1,33 @@
+body{
+    /* background-size: 1350px 700px; */
+    background-repeat: no-repeat;
+    background-position: fixed;
+     background-size: cover; 
+     font-family: 'Open Sans', sans-serif;
+}
+.box_in{
+    margin-top:25px;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 540px;
+    height: 207px;
+    padding: 25px;
+    
+  }
+  .row{
+      color: white;
+  }
+  
+
+.form_class :active {
+  background: rgba(255, 255, 255, 0) ;
+  border: 2px solid #fff ;
+  border-radius: 5px;
+  color: #fff ;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 29px;
+  padding: 1px 11px;
+}
+.btn {
+    color:#46fbdf;
+}
