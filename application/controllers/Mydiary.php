@@ -10,6 +10,7 @@ class Mydiary extends CI_Controller {
     {
         $this->load->view('nav1');
         $this->load->view('index');
+        $this->load->view('footer');
     }
 }
 ?>

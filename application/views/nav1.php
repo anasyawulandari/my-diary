@@ -23,8 +23,9 @@
         line-height:20px;
       
     }
-    ul li a :hover{
-        color: green;
+   .nav-link:hover{
+        color:  #46fbdf !important;
+        text-decoration: none;
     }
     .navbar-nav > li > a {
         padding-bottom: 12px;
@@ -60,10 +61,9 @@ nav a {
 #socbar a{
   text-align:center;
   margin-top:0px;
- 
-}
 
-    
+}
+ 
     </style>
 </head>
 <body background="assets/bg1.jpg" >

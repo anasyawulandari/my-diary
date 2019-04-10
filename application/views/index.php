@@ -13,7 +13,7 @@
 </head>
 <body background="assets/bg1.jpg">
     <div class="container">
-    <div class ="main-content">
+    <div class ="main-content-1">
       <div class="row">
           <div class="col-lg-6">
            <div class="box_in">
@@ -58,10 +58,72 @@
                     </div></div></form></div>  
                     </div>
                 </div>
+                <div class="row mt">
+                        <div class="col-lg-12">
+                         <div class="box_in" style="width: 1110px;
+                         height: 300px;">
+                          <h1 class="heading text-center ">Welcome to the free online diary</h1>
+                           <div class="line" ></div>
+                           
+                            <div class="row-1">
+                             <div class="col-lg-offset-2 col-lg-8 text-center">
+                             <p>Everyone can have their own personal diary or journal on the Internet-it's free at my-diary.org! <br> We will host your journal online at no cost. Go ahead and create your own public or private diary today.<br>Our focus is on security and privacy, and diaries are private by default.</p>
+                             <a href="#" class="style_button_a">Create your diary!</a></div>     
+                            </div>
                         </div>
                     </div>
                 </div>
+                 <div class="up" style="margin-top:20px">
+                    <a href="https://upnode.no/">Visit upnode.no for premium hosting solutions</a>
+                    </div>
                 </div>
-                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                     <div class="box_in1">
+                      <h2 class="heading text-center">- Public diaries -</h2>
+                      <div class="line"></div>
+                       <div class="row ">
+                 
+                        <div id="652384" class="col-lg-3">
+                         <div class="box_in_small">
+                         <div class="tag"><a href="/read/d/652384/blubutterfly221"><i class="fa fa-user"></i> blubutterfly221</div>
+                         <h4><i class="fa fa-book"></i>  justkeepswimming</h4></a><a href="/read/e/545889043/first-therapist-encounter">First Therapist encounter</a>
+                         <div class="l2"></div>
+                         289 entries        </div>
+                        </div>
+                 
+                        <div id="953921" class="col-lg-3">
+                         <div class="box_in_small">
+                         <div class="tag"><a href="/read/d/953921/boeliebreker"><i class="fa fa-user"></i> Boeliebreker</div>
+                         <h4><i class="fa fa-book"></i>  Boeliebreker</h4></a><a href="/read/e/545888972/het-jy-al-n-stuk-gemors-gesien?">Het jy al n stuk gemors gesien?</a>
+                         <div class="l2"></div>
+                         7 entries        </div>
+                        </div>
+                 
+                        <div id="667293" class="col-lg-3">
+                         <div class="box_in_small">
+                         <div class="tag"><a href="/read/d/667293/gabriela-alexis"><i class="fa fa-user"></i> Gabriela Alexis</div>
+                         <h4><i class="fa fa-book"></i>  A</h4></a><a href="/read/e/545888963/long-time-no-type">Long time No Type</a>
+                         <div class="l2"></div>
+                         84 entries        </div>
+                        </div>
+                 
+                        <div id="956078" class="col-lg-3">
+                         <div class="box_in_small">
+                         <div class="tag"><a href="/read/d/956078/souriene"><i class="fa fa-user"></i> souriene</div>
+                         <h4><i class="fa fa-book"></i>  her cup of tea</h4></a><a href="/read/e/545888920/i-wish-i-was-a-cactus">i wish i was a cactus</a>
+                         <div class="l2"></div>
+                         10 entries        </div>
+                        </div>
+                 
+                    <div class="row ">
+                     <div class="col-lg-12 "><a href="/surf/" class="style_button_b">Read public diaries</a></div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                    
+             
+                
 </body>
 </html>
