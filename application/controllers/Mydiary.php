@@ -8,9 +8,11 @@ class Mydiary extends CI_Controller {
     }
     public function index()
     {
-        $this->load->view('nav1');
-        $this->load->view('index');
-        $this->load->view('footer');
+        $this->load->view('nav2');
+        //  $this->load->view('nav1');
+         //$this->load->view('index');
+        //  $this->load->view('footer');
     }
+    
 }
 ?>
