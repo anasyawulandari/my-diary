@@ -11,7 +11,13 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
   <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+<style>
+  body{
+      background-repeat: no-repeat !important ;
+    background-attachment: fixed !important;
+    background-size: cover; 
+  }
+  </style>
   </head>
 
 <body background="assets/bg1.jpg">
@@ -52,7 +58,7 @@
      <ul class="nav navbar-nav navbar-right hidden-lg hidden-md">
       <li><a href="/manage/"><i class="fa fa-user"></i>Login</a></li> 
       <li><a href="/create/"><i class="fa fa-sign-in"></i>Register</a></li>
-      <li><a href="/create/?action=login_facebook"><i class="fa fa-facebook"></i><img src='assets/fb.png' height='16' width='16'> Login with Facebook</a></li>
+      <li><a href="/create/?action=login_facebook"><i class="fa fa-facebook"></i><img src="assets/fb.png" height='16' width='16'> Login with Facebook</a></li>
       <li><a href="/create/?action=login_google"><i class="fa fa-google"></i>Login with Google</a></li>
      </ul>
         <ul id="socbar" class="nav navbar-nav navbar-right social">

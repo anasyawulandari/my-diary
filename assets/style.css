@@ -18,7 +18,7 @@ body.index, body.page {
     
     /* background: url(../img/bg.jpg) #0e0e0e no-repeat center center fixed; */
 
-     background-repeat: no-repeat !important ;
+    background-repeat: no-repeat !important ;
     background-attachment: fixed !important;
     font-family: 'Open Sans', sans-serif !important;
     background-size: cover;
@@ -27,6 +27,7 @@ body.index, body.page {
 }
 body{
     color:#fff;
+  
 }
 
 /* hr {

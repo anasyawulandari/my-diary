@@ -11,7 +11,7 @@ class Mydiary extends CI_Controller {
         //$this->load->view('nav2');
     
        
-      $this->load->view('index');
+      $this->load->view('logout');
     //    $this->load->view('footer');
     //    $this->load->view('about');
     }
