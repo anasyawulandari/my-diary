@@ -7,7 +7,7 @@
   <meta NAME="author" content="A free online diary">
   <link rel="icon" href="/assets/img/favicon.ico" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"> 
-  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="<?php echo base_url('assets/style.css')?>"/>
   <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
@@ -21,7 +21,7 @@
   </style>
   </head>
 
-<body background="assets/bg1.jpg">
+<body background="<?php echo base_url('assets/bg1')?>.jpg">
  <header class=""> 
  <nav class="navbar navbar-default">
  <div class="container">
@@ -38,7 +38,7 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
      <ul class="nav navbar-nav">
-      <li class="logo hidden-xs"><a href="/" class="logo"><img src="assets/logo_small.png" alt="my-diary.org logo"></a></li>
+      <li class="logo hidden-xs"><a href="/" class="logo"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo"></a></li>
       <li><a href="/surf/">Public Diaries</a></li>
       <li><a href="/manage/">Manage your diary</a></li>
 <li><a href="/create/">Create your own diary</a></li>
@@ -50,12 +50,12 @@
      <ul class="nav navbar-nav navbar-right hidden-lg hidden-md">
       <li><a href="/manage/"><i class="fa fa-user"></i>Login</a></li> 
       <li><a href="/create/"><i class="fa fa-sign-in"></i>Register</a></li>
-      <li><a href="/create/?action=login_facebook"><i class="fa fa-facebookx"></i><img src='assets/fb.png' height='16' width='16'> Login with Facebook</a></li>
+      <li><a href="/create/?action=login_facebook"><i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height='16' width='16'> Login with Facebook</a></li>
       <li><a href="/create/?action=login_google"><i class="fa fa-google"></i>Login with Google</a></li>
      </ul>
   <ul id="socbar" class="nav navbar-nav navbar-right social">
   <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.my-diary.org/logout/" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
-  <i class="fa fa-facebookx"></i><img src="assets/fb.png" height="16" width="16"></a>
+  <i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"></a>
   <a href="https://twitter.com/intent/tweet?text=A+free+online+diary&url=https://www.my-diary.org/logout/" class="" title="Share on Twitter" target="_blank" >
   <i class="fa fa-twitter"></i></a>
   <a href="https://plus.google.com/share?url=https://www.my-diary.org/logout/" class="" title="Share on Google+" target="_blank" >
@@ -88,7 +88,7 @@
   <ul class="nav navbar-nav navbar-right">
   <li><a href="/manage/"><i class="fa fa-user"></i>Login</a></li> 
   <li><a href="/create/"><i class="fa fa-sign-in"></i>Register</a></li>
-  <li><a href="/create/?action=login_facebook"><i class="fa fa-facebookx"></i><img src="assets/fb.png" height="16" width="16"> Login with Facebook</a></li>
+  <li><a href="/create/?action=login_facebook"><i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"> Login with Facebook</a></li>
   <li><a href="/create/?action=login_google"><i class="fa fa-google"></i>Login with Google</a></li>
   </ul>
  </div>
@@ -202,7 +202,7 @@ You can support my-diary.org by <a href="https://www.my-diary.org/donate/">donat
    <div class="col-lg-4 text-left">
 
     <div style="floaT:left;width:100%;">
-    <a href="#" style="floaT:left;"><img src="assets/logo.png" alt="my-diary.org logo" style="width:150px;margin-right:10px;"></a>
+    <a href="#" style="floaT:left;"><img src="<?php echo base_url('assets/logo.png')?>" alt="my-diary.org logo" style="width:150px;margin-right:10px;"></a>
     </div>
     Everyone can have their own personal online diary or journal on the Internet - it's free at my-diary.org! We will host your journal online at no cost. Go ahead and create your own private or public diary today.
    </div>

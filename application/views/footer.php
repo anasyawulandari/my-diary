@@ -57,7 +57,7 @@
               <div class="row ">
                <div class="col-lg-4 text-left">
                 <div style="floaT:left;width:100%;margin-left: 125px">
-                <a href="#" style="floaT:left;"><img src="assets/logo.png" alt="my-diary.org logo" style="width:150px;"></a>
+                <a href="#" style="floaT:left;"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo" style="width:150px;"></a>
                 </div >
                 <div style="margin-left:125px;">
                 Everyone can have their own personal online diary or journal on the Internet - it's free at my-diary.org!<br> will host your journal online at no cost. Go ahead and create your own private or  diary today..

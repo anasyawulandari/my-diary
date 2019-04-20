@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/home.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/home.css')?>"/>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
  
     <title>The Online Diary - It's free! - Private or public, your choice!</title>
@@ -68,7 +68,7 @@ div.dropdown-menu {
  
     </style>
 </head>
-<body background="assets/bg1.jpg">
+<body background="<?php echo base_url('assets/bg1')?>.jpg">
 <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" style=" border-bottom: 1px solid white;padding:6px;margin-left:100px ">
 <header class="container">
   <a class="navbar-brand" href="#"></a>
@@ -79,7 +79,7 @@ div.dropdown-menu {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-white" href="">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="#">Public Diaries</a>
@@ -91,7 +91,7 @@ div.dropdown-menu {
         <a class="nav-link text-white" href="#">Create your own diary</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">About</a>
+        <a class="nav-link text-white" href="<?php echo base_url().'Mydiary/about';?>">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-white" href="#">Faq</a>
@@ -112,7 +112,7 @@ div.dropdown-menu {
       
       <ul id="socbar" class="nav navbar-nav navbar-right social">
       <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.my-diary.org/" class="" title="Share on Facebook" target="_blank" >
-     <img src="assets/fb.png" height="16" width="16"></a>
+     <img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"></a>
       <a href="https://twitter.com/intent/tweet?text=A+free+online+diary&url=https://www.my-diary.org/" class="" title="Share on Twitter" target="_blank" >
       <i class="fa fa-twitter"></i></a>
       <a href="https://plus.google.com/share?url=https://www.my-diary.org/" class="" title="Share on Google+2" target="_blank" >
@@ -130,7 +130,7 @@ div.dropdown-menu {
       <div class="row">
           <div class="col-lg-6">
            <div class="box_in">
-            <img src="assets/Logo.png" alt="my-diary.org logo">
+            <img src="<?php echo base_url('assets/logo.png')?>" alt="my-diary.org logo">
            </div>
           </div>
          <div class="col-lg-6 mobile1">
@@ -159,14 +159,14 @@ div.dropdown-menu {
                                 <div class='col-lg-3'></div>	
                                 <div class='col-lg-10'>
                             <div class='row'> <div class='col-lg-4'> <button type='submit' class='btn btn-default'style="color:#46fbdf;"><i class='fa fa-user-o'></i> Login</button></div>	
-                            <div class='col-lg-8'><a href=""> Not registered? <br>Sign up today</a></div>	
+                            <div class='col-lg-8'><a href="<?php echo base_url().'Mydiary/register';?>"> Not registered? <br>Sign up today</a></div>	
                         </div>	
                         </div>
                             </div>
                     </div> 
                     <div class='col-lg-4'>
                     <h3>or login using</h3>
-                    <a href="" class='btn btn-default style_button mb '><i class='fa fa-facebookx' aria-hidden='true'></i><img src='assets/fb.png' height='16' width='16'> Facebook</a>
+                    <a href="" class='btn btn-default style_button mb '><i class='fa fa-facebookx' aria-hidden='true'></i><img src='<?php echo base_url('assets/fb.png')?>' height='16' width='16'> Facebook</a>
                     <a href="" class='btn btn-default style_button mb'><i class='fa fa-google-plus' aria-hidden='true'style="color:#46fbdf;"></i> Google</a>
                     </div></div></form></div>  
                     </div>
@@ -235,6 +235,19 @@ div.dropdown-menu {
                    </div>
                   </div>
                  </div>
+                 
+        <!-- Global site tag (gtag.js) - Google Analytics
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178721-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-178721-1');
+        </script> -->
+                    
+        
+        </footer>
                     
              
                 

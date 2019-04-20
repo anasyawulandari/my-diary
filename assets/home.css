@@ -159,4 +159,20 @@ h4{
     top: -8px;
     width: 70%;
 }
-
+footer{
+	margin-top:50px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background: #000000;
+	font-size:12px;
+}
+.logo a{
+ height: 58px;
+padding: 8px 8px  0 0!important;
+}
+.page nav a{
+ line-height: 25px; 
+}
+.page nav .social a {
+    margin: 21px 0 0 6px;
+}
