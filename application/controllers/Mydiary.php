@@ -35,6 +35,9 @@ class Mydiary extends CI_Controller {
     public function logout(){
       $this->load->view('logout');
     }
+    public function delete(){
+      $this->load->view('delete_entry');
+    }
     
     
 }
