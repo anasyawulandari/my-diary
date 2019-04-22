@@ -20,5 +20,9 @@ class Mydiary extends CI_Controller {
     {
       $this->load->view('registrasi01');
     }
+    public function edit()
+    {
+      $this->load->view('edit');
+    }
 }
 ?>
