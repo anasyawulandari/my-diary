@@ -8,16 +8,23 @@
   <link rel="icon" href="/assets/img/favicon.ico" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"> 
   <link rel="stylesheet" href="<?php echo base_url('assets/style.css')?>"/>
+  <style>
+  body{
+      background-repeat: no-repeat !important ;
+    background-attachment: fixed !important;
+    background-size: cover; 
+  }
+  </style>
   </head>
 
-<body class="<?php echo base_url('assets/bg1')?>.jpg">
+<body background="<?php echo base_url('assets/bg1')?>.jpg">
  <header class=""> 
  <nav class="navbar navbar-default">
  <div class="container">
   <div class="row">
    <div class="col-lg-12">
     <div class="navbar-header">
-     <a href="/" class="hidden-lg hidden-sm hidden-md"><img src="/assets/img/logo_small.png" alt="my-diary.org logo"></a>   
+     <a href="/" class="hidden-lg hidden-sm hidden-md"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo"></a>   
      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
      <span class="sr-only">Toggle navigation</span>
      <span class="icon-bar"></span>
@@ -60,7 +67,7 @@
      </ul> 
   <ul id="socbar" class="nav navbar-nav navbar-right social">
   <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.my-diary.org/d/959863" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
-  <i class="fa fa-facebookx"></i><img src="/images/flogo-250.png" height="16" width="16"></a>
+  <i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"></a>
   <a href="https://twitter.com/intent/tweet?text=A+free+online+diary&url=https://www.my-diary.org/d/959863" class="" title="Share on Twitter" target="_blank" >
   <i class="fa fa-twitter"></i></a>
   <a href="https://plus.google.com/share?url=https://www.my-diary.org/d/959863" class="" title="Share on Google+" target="_blank" >
@@ -227,7 +234,7 @@ or use the <a href="/contact/" target=_new>contact-form</a>. There is also a <a 
    <div class="col-lg-4 text-left">
 
     <div style="floaT:left;width:100%;">
-    <a href="#" style="floaT:left;"><img src="/assets/img/logo.png" alt="my-diary.org logo" style="width:150px;margin-right:10px;"></a>
+    <a href="#" style="floaT:left;"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo" style="width:150px;margin-right:10px;"></a>
     </div>
     Everyone can have their own personal online diary or journal on the Internet - it's free at my-diary.org! We will host your journal online at no cost. Go ahead and create your own private or public diary today.
    </div>
