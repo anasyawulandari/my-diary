@@ -166,7 +166,7 @@
  <h2><?= $row->judul?></h2>
  <?= $row->isi?> </br>
  <?= $row->timestamp?>
- <a href= "<?php echo base_url('Mydiary/editentry/').$row->id_entry?>" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+ <a href= "<?php echo base_url('Mydiary/editentry/').$row->id_entry?>" class="btn btn-primary">
 Edit</a>
 
  </div>
