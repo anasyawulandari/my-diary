@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?php echo base_url('assets/home.css')?>"/>
+    <link rel="stylesheet" href="<?php echo base_url('assets/style.css')?>"/>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
- 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
     <title>The Online Diary - It's free! - Private or public, your choice!</title>
     <style>
     .container{
@@ -65,8 +66,77 @@ nav a {
 div.dropdown-menu {
     background: #0e0e0e;
 }
+
+.box_in {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-radius: 5px;
+    overflow: hidden;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); */
+}
+.box_in1 {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-radius: 5px;
+    overflow: hidden;
+}
+    .tag {
+    background: #000 none repeat scroll 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-radius: 5px;
+    font-size: 12px;
+    left: 15%;
+    margin: 0 auto;
+    padding: 4px 10px;
+    position: absolute;
+    text-align: center;
+    top: -8px;
+    width: 70%;
+}
  
-    </style>
+ .box_in_small {
+    background: rgba(0, 0, 0, 0.55) none repeat scroll 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 20px;
+    min-height: 165px;
+    padding: 33px 15px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom:2px;
+}
+ .box_in_small h3{
+ color:#fff;
+ font-weight:300;
+ font-size:20px;
+    margin: 0 0 12px;
+ }
+ body{
+    background-repeat: no-repeat !important ;
+    background-attachment: fixed !important;
+    background-size: cover; 
+  }
+  a.style_button_b{
+    background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
+      border: 2px solid #46fbdf;
+      border-radius: 5px;
+      clear: both;
+      color: #46fbdf;
+      display: block;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 29px;
+      margin: 15px auto 10px;
+      padding: 5px 20px;
+      text-align: center;
+      width: 180px;
+  }
+  </style>
+  
 </head>
 <body background="<?php echo base_url('assets/bg1')?>.jpg">
 <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" style=" border-bottom: 1px solid white;padding:6px;margin-left:100px ">
@@ -96,17 +166,17 @@ div.dropdown-menu {
       <li class="nav-item">
         <a class="nav-link text-white" href="#">Faq</a>
       </li>
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle  text-white" href="#" id="dropdown09"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <span class="flag-icon flag-icon-us"> </span> Language</a> 
-        
-        <div class="dropdown-menu" aria-labelledby="dropdown09">
-        <p>   <a class="dropdown-item" href="/?hl=no"><span class="flag-icon flag-icon-no"> </span>  Norwegian</a>
-<p>   <a class="dropdown-item" href="/?hl=en"><span class="flag-icon flag-icon-us"> </span>  English</a>
-<p>   <a class="dropdown-item" href="/?hl=th"><span class="flag-icon flag-icon-th"> </span>  Thai</a>
-        </div>
-      </li>
+    <a class="nav-link dropdown-toggle" href="/?hl=reset" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="flag-icon flag-icon-us"> </span> Language</a>
+    <div class="dropdown-menu" aria-labelledby="dropdown09">
+    <p>   <a class="dropdown-item" href="/?hl=no"><span class="flag-icon flag-icon-no"> </span>  Norwegian</a>
+    <p>   <a class="dropdown-item" href="/?hl=en"><span class="flag-icon flag-icon-us"> </span>  English</a>
+    <p>   <a class="dropdown-item" href="/?hl=th"><span class="flag-icon flag-icon-th"> </span>  Thai</a>
+    </div>
+    </li>
+
+
     </ul>
     
       
@@ -158,7 +228,9 @@ div.dropdown-menu {
                         <div class='row'>
                                 <div class='col-lg-3'></div>	
                                 <div class='col-lg-10'>
-                            <div class='row'> <div class='col-lg-4'> <button type='submit' class='btn btn-default'style="color:#46fbdf;"><i class='fa fa-user-o'></i> Login</button></div>	
+                            <div class='row'> <div class='col-lg-4'> 
+                            
+                            <button type='submit' class='btn btn-default'style="color:#46fbdf;"><i class='fa fa-user-o'></i> Login</button></div>	
                             <div class='col-lg-8'><a href="<?php echo base_url().'Mydiary/register';?>"> Not registered? <br>Sign up today</a></div>	
                         </div>	
                         </div>
@@ -171,6 +243,7 @@ div.dropdown-menu {
                     </div></div></form></div>  
                     </div>
                 </div>
+                    
                 <div class="row mt">
                         <div class="col-lg-12">
                          <div class="box_in" style="width: 1110px;
@@ -178,15 +251,17 @@ div.dropdown-menu {
                           <h1 class="heading text-center ">Welcome to the free online diary</h1>
                            <div class="line" ></div>
                            
-                            <div class="row-1">
-                             <div class="col-lg-offset-2 col-lg-8 text-center">
-                             <p>Everyone can have their own personal diary or journal on the Internet-it's free at my-diary.org! <br> We will host your journal online at no cost. Go ahead and create your own public or private diary today.<br>Our focus is on security and privacy, and diaries are private by default.</p>
-                             <a href="#" class="style_button_a">Create your diary!</a></div>     
-                            </div>
+                           <div class="row ">
+                <div class="col-lg-offset-2 col-lg-8 text-center" style="margin-left:180px;weight:1250px>
+                <p class="ribet " style="margin-left:100px;weight:1000px">
+                Everyone can have their own personal diary or journal on the Internet - it's free at my-diary.org! <br>We will host your journal online at no cost. Go ahead and create your own public or private diary today.<br>Our focus is on security and privacy, and diaries are private by default.       </p>
+                <a href="/create/" class="style_button_a" style="margin-left:250px">Create your diary!</a></div>
+       
+             </div>
                         </div>
                     </div>
                 </div>
-                 <div class="up" style="margin-top:20px">
+                 <div class="up" style="margin-top:20px;margin-left:410px;margin-bottom:20px">
                     <a href="https://upnode.no/">Visit upnode.no for premium hosting solutions</a>
                     </div>
                 </div>
@@ -230,7 +305,7 @@ div.dropdown-menu {
                         </div>
                  
                     <div class="row ">
-                     <div class="col-lg-12 "><a href="/surf/" class="style_button_b">Read public diaries</a></div>
+                     <div class="col-lg-12 "><a href="/surf/" class="style_button_b " style="margin-left:460px">Read public diaries</a></div>
                     </div>
                    </div>
                   </div>

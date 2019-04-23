@@ -18,7 +18,7 @@
     background-attachment: fixed !important;
     background-size: cover; 
   }
-  .style_button_d  {
+  .style_button_d{
     background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
     border: 2px solid #46fbdf;
     border-radius: 5px;
@@ -82,15 +82,15 @@
    <li><a href="/edit/?action=langs"><i class="fa fa-edit"></i>Languages</a></li>
       <li><a href="/logout"><i class="fa fa-sign-out"></i>Logout</a></li>
      </ul> 
-  <ul id="socbar" class="nav navbar-nav navbar-right social">
-  <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.my-diary.org/d/959863" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
-  <i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"></a>
-  <a href="https://twitter.com/intent/tweet?text=A+free+online+diary&url=https://www.my-diary.org/d/959863" class="" title="Share on Twitter" target="_blank" >
-  <i class="fa fa-twitter"></i></a>
-  <a href="https://plus.google.com/share?url=https://www.my-diary.org/d/959863" class="" title="Share on Google+" target="_blank" >
-  <i class="fa fa-google-plus"></i></a>
-  <a href="http://www.linkedin.com/shareArticle?mini=true&ro=true&trk=frontpage&title=A+free+online+diary&url=https://www.my-diary.org/d/959863" class="" title="Share on Linkedin" target="_blank">
-  <i class="fa fa-linkedin"></i></a>
+    <ul id="socbar" class="nav navbar-nav navbar-right social">
+    <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.my-diary.org/d/959863" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
+    <i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"></a>
+    <a href="https://twitter.com/intent/tweet?text=A+free+online+diary&url=https://www.my-diary.org/d/959863" class="" title="Share on Twitter" target="_blank" >
+    <i class="fa fa-twitter"></i></a>
+    <a href="https://plus.google.com/share?url=https://www.my-diary.org/d/959863" class="" title="Share on Google+" target="_blank" >
+    <i class="fa fa-google-plus"></i></a>
+    <a href="http://www.linkedin.com/shareArticle?mini=true&ro=true&trk=frontpage&title=A+free+online+diary&url=https://www.my-diary.org/d/959863" class="" title="Share on Linkedin" target="_blank">
+    <i class="fa fa-linkedin"></i></a>
   
   </ul>
      </div>

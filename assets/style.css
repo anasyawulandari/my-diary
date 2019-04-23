@@ -336,3 +336,99 @@ padding: 8px 8px  0 0!important;
     text-align: center;
     width: 160px;
 }
+a.style_button_b{
+    background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
+      border: 2px solid #46fbdf;
+      border-radius: 5px;
+      clear: both;
+      color: #46fbdf;
+      display: block;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 29px;
+      margin: 15px auto 10px;
+      padding: 5px 20px;
+      text-align: center;
+      width: 180px;
+  }
+.tag {
+    background: #000 none repeat scroll 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-radius: 5px;
+    font-size: 12px;
+    left: 15%;
+    margin: 0 auto;
+    padding: 4px 10px;
+    position: absolute;
+    text-align: center;
+    top: -8px;
+    width: 70%;
+}
+ .tag2{
+    background: #000 none repeat scroll 0 0;
+     border: 1px solid rgba(255, 255, 255, 0.55);
+     border-radius: 5px;
+     font-size: 12px;
+     left: 22%;
+     margin: 0 auto;
+     padding: 4px 10px;
+     position: absolute;
+     text-align: center;
+     bottom: -8px;
+     width: 124px;
+ }
+ .box_in_small {
+    background: rgba(0, 0, 0, 0.55) none repeat scroll 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 20px;
+    min-height: 165px;
+    padding: 33px 15px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ .box_in_small h3{
+ color:#fff;
+ font-weight:300;
+ font-size:20px;
+    margin: 0 0 12px;
+ }
+ .my_diary_options{
+	text-align:right;
+}
+.my_diary_options a {
+    border: 1px solid #46fbdf;
+    border-radius: 6px;
+    color: #46fbdf;
+    font-size: 14px;
+    padding: 4px 8px;
+}
+
+.diary_entry {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+	line-height:55px;
+}
+.my_account_details {
+	margin-top:15px;
+}
+.my_account_details tr td{
+	padding-right:10px;
+    font-size:14px;
+    border-line: transparent;
+}
+.my_account_details tr td i{
+	color:#46fbdf;
+	margin-left:5px;
+    font-size:20px;
+    border-line: transparent;
+}
+
+
+.my_account_details {
+    background-clip: padding-box;
+    border-right: 1px solid rgba(255, 255, 255, 0.55);
+    margin-top: 15px;
+    border-line: transparent;
+}

@@ -38,6 +38,9 @@ class Mydiary extends CI_Controller {
     public function delete(){
       $this->load->view('delete_entry');
     }
+    public function account(){
+      $this->load->view('akun');
+    }
     
     
 }
