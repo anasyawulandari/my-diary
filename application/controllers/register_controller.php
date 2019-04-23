@@ -22,7 +22,7 @@ class Register_controller extends CI_Controller{
             redirect('index.php/register_controller');
         } else {
             $data = array(
-                "nama" => $this->input->post('username');
+                "nama" => $this->input->post('nama'),
                 "username" => $this->input->post('username'),
                 "password" => md5($this->input->post('password')),
                 "email" => $this->input->post('email'),

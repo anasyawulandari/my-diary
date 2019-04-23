@@ -1,9 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class akun_model extend CI_Model{
+class akun_model extends CI_Model{
     function daftar($tabel,$data){
-        $this->insert->($tabel,$data);
+        $this->db->insert($tabel,$data);
         return $this->db->insert_id();;
     }
 }
