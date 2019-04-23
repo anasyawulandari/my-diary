@@ -6,6 +6,12 @@ class Mydiary extends CI_Controller {
     // {
     //     parent::__construct();
     // }
+    function __construct(){
+      parent::__construct();
+      $this->load->library(array('form_validation'));
+      $this->load->helper(array('url','form'));
+      $this->load->model('newEntry_model');
+  }
     public function index()
     {
       $this->load->view('index');
@@ -30,7 +36,8 @@ class Mydiary extends CI_Controller {
     }
     
     public function myentry(){
-      $this->load->view('myentry');
+      $data["entri"] = $this->newEntry_model->getEntry();
+      $this->load->view('myentry',$data);
     }
     public function logout(){
       $this->load->view('logout');
@@ -40,6 +47,10 @@ class Mydiary extends CI_Controller {
     }
     public function account(){
       $this->load->view('akun');
+    }
+    public function editentry($id_entry){
+      $data = $this->db->query("SELECT * FROM tb_entry WHERE id_entry='".$id_entry."' ")->row();
+      $this->load->view('editentry',['data'=>$data]);
     }
     
     

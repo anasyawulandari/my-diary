@@ -11,7 +11,7 @@ class MyEntryControl extends CI_Controller {
     }
 
     function index(){
-        $data["entries"] = $this->newEntry_model->getEntry();
+        $data["entri"] = $this->newEntry_model->getEntry();
         $this->load->view('myentry',$data);
     }
 

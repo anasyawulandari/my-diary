@@ -55,7 +55,7 @@
      </ul>
 
      <ul class="nav navbar-nav hidden-lg hidden-md hidden-sm">
-      <li><a href="/edit/?action=lookup"><i class="fa fa-book"></i>My entries</a></li> 
+      <li><a href=<?php echo base_url('Mydiary/myEntry')?><i class="fa fa-book"></i>My entries</a></li> 
       <li><a href="/edit/?action=new"><i class="fa fa-plus"></i>Write new entry</a></li>
       <li><a href="/edit/?action=account"><i class="fa fa-user"></i>Account</a></li>
       <li><a href="/edit/?action=messages"><i class="fa fa-envelope"></i>Messages</a></li>
@@ -105,7 +105,7 @@
   <ul class="nav navbar-nav  navbar-right">
    <li class="text-center">Welcome nasya01!</li> 
 
-  <li><a href="/logout/"><i class="fa fa-sign-out"></i>Logout</a></li>
+  <li><a href="<?php echo base_url('login_controller/logout')?>"><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>
  </div>
  </div></div></div>

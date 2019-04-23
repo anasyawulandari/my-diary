@@ -209,10 +209,10 @@ div.dropdown-menu {
             <div class='row'>
                     <div class='col-lg-8 borderleft'>
                     <h3>Diary Login</h3>
-                    <form class='form_class' action="" method="post" name="login">
+                    <form class='form_class' action="<?=base_url('login_controller/login') ?>" method="post" name="login">
                     <div class='row'>
                     <div class='col-lg-3'>
-                        <label for='exampleInputName2'>Email</label>
+                        <label for='exampleInputName2'>Username</label>
                     </div>
                     	<div class='col-lg-9'>
                             <input type='text' class='form-control' id='exampleInputName2' name="e">
