@@ -24,7 +24,7 @@
   <div class="row">
    <div class="col-lg-12">
     <div class="navbar-header">
-     <a href="/" class="hidden-lg hidden-sm hidden-md"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo"></a>   
+     <a href="" class="hidden-lg hidden-sm hidden-md"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo"></a>   
      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
      <span class="sr-only">Toggle navigation</span>
      <span class="icon-bar"></span>
@@ -34,45 +34,45 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
      <ul class="nav navbar-nav">
-      <li class="logo hidden-xs"><a href="/" class="logo"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo"></a></li>
-      <li><a href="/surf/">Public Diaries</a></li>
-      <li><a href="/manage/">Manage your diary</a></li>
+      <li class="logo hidden-xs"><a href="" class="logo"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo"></a></li>
+      <li><a href="">Public Diaries</a></li>
+      <li><a href="">Manage your diary</a></li>
 
       <li><a href="<?php echo base_url().'Mydiary/about';?>">About</a></li>
       <li><a href="/faq/">Faq</a></li>
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
  <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="/?hl=reset" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <a class="nav-link dropdown-toggle" href="" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   <span class="flag-icon flag-icon-us"> </span> Language</a>
   <div class="dropdown-menu" aria-labelledby="dropdown09">
-<p>   <a class="dropdown-item" href="/?hl=no"><span class="flag-icon flag-icon-no"> </span>  Norwegian</a>
-<p>   <a class="dropdown-item" href="/?hl=en"><span class="flag-icon flag-icon-us"> </span>  English</a>
-<p>   <a class="dropdown-item" href="/?hl=th"><span class="flag-icon flag-icon-th"> </span>  Thai</a>
+<p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-no"> </span>  Norwegian</a>
+<p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-us"> </span>  English</a>
+<p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-th"> </span>  Thai</a>
   </div>
  </li>
 
      </ul>
 
      <ul class="nav navbar-nav hidden-lg hidden-md hidden-sm">
-      <li><a href="/edit/?action=lookup"><i class="fa fa-book"></i>My entries</a></li> 
-      <li><a href="/edit/?action=new"><i class="fa fa-plus"></i>Write new entry</a></li>
-      <li><a href="/edit/?action=account"><i class="fa fa-user"></i>Account</a></li>
-      <li><a href="/edit/?action=messages"><i class="fa fa-envelope"></i>Messages</a></li>
-      <li><a href="/edit/?action=donate"><i class="fa fa-gift"></i>Donate</a></li>
-      <li><a href="/edit/?action=show_log"><i class="fa fa-history"></i>History</a></li>
+      <li><a href="<?php echo base_url().'MyEntryControl/myentry';?>"><i class="fa fa-book"></i>My entries</a></li> 
+      <li><a href="<?php echo base_url().'Mydiary/newEntry';?>"><i class="fa fa-plus"></i>Write new entry</a></li>
+      <li><a href=""><i class="fa fa-user"></i>Account</a></li>
+      <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
+      <li><a href=""><i class="fa fa-gift"></i>Donate</a></li>
+      <li><a href=""><i class="fa fa-history"></i>History</a></li>
       
-   <li><a href="/edit/?action=langs"><i class="fa fa-edit"></i>Languages</a></li>
-      <li><a href="/logout"><i class="fa fa-sign-out"></i>Logout</a></li>
+   <li><a href=""><i class="fa fa-edit"></i>Languages</a></li>
+      <li><a href="<?php echo base_url().'Mydiary/logout';?>"><i class="fa fa-sign-out"></i>Logout</a></li>
      </ul> 
   <ul id="socbar" class="nav navbar-nav navbar-right social">
-  <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.my-diary.org/d/959863" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
+  <a href="" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
   <i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"></a>
-  <a href="https://twitter.com/intent/tweet?text=A+free+online+diary&url=https://www.my-diary.org/d/959863" class="" title="Share on Twitter" target="_blank" >
+  <a href="" class="" title="Share on Twitter" target="_blank" >
   <i class="fa fa-twitter"></i></a>
-  <a href="https://plus.google.com/share?url=https://www.my-diary.org/d/959863" class="" title="Share on Google+" target="_blank" >
+  <a href="" class="" title="Share on Google+" target="_blank" >
   <i class="fa fa-google-plus"></i></a>
-  <a href="http://www.linkedin.com/shareArticle?mini=true&ro=true&trk=frontpage&title=A+free+online+diary&url=https://www.my-diary.org/d/959863" class="" title="Share on Linkedin" target="_blank">
+  <a href="" class="" title="Share on Linkedin" target="_blank">
   <i class="fa fa-linkedin"></i></a>
   
   </ul>
@@ -259,10 +259,6 @@ or use the <a href="/contact/" target=_new>contact-form</a>. There is also a <a 
   <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<!--
-<script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/0.0.11/push.min.js"></script>
-<script> Push.Permission.request();</script>
--->
-<script>$(function(){setTimeout(function(){return $(".fbar").animate({height:"toggle"},"slow")},450);return $("#fok").on("click",function(){$("#fbarwrap").css("margin-bottom","0px");$(".fbar").animate({height:"toggle"},"slow");return 1})});</script>
+
  </body>
 </html>

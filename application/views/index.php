@@ -170,9 +170,9 @@ div.dropdown-menu {
     <a class="nav-link dropdown-toggle" href="/?hl=reset" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <span class="flag-icon flag-icon-us"> </span> Language</a>
     <div class="dropdown-menu" aria-labelledby="dropdown09">
-    <p>   <a class="dropdown-item" href="/?hl=no"><span class="flag-icon flag-icon-no"> </span>  Norwegian</a>
-    <p>   <a class="dropdown-item" href="/?hl=en"><span class="flag-icon flag-icon-us"> </span>  English</a>
-    <p>   <a class="dropdown-item" href="/?hl=th"><span class="flag-icon flag-icon-th"> </span>  Thai</a>
+    <p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-no"> </span>  Norwegian</a>
+    <p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-us"> </span>  English</a>
+    <p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-th"> </span>  Thai</a>
     </div>
     </li>
 
@@ -181,13 +181,13 @@ div.dropdown-menu {
     
       
       <ul id="socbar" class="nav navbar-nav navbar-right social">
-      <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.my-diary.org/" class="" title="Share on Facebook" target="_blank" >
+      <a href="" class="" title="Share on Facebook" target="_blank" >
      <img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"></a>
-      <a href="https://twitter.com/intent/tweet?text=A+free+online+diary&url=https://www.my-diary.org/" class="" title="Share on Twitter" target="_blank" >
+      <a href="" class="" title="Share on Twitter" target="_blank" >
       <i class="fa fa-twitter"></i></a>
-      <a href="https://plus.google.com/share?url=https://www.my-diary.org/" class="" title="Share on Google+2" target="_blank" >
+      <a href="" class="" title="Share on Google+2" target="_blank" >
       <i class="fa fa-google-plus"></i></a>
-      <a href="http://www.linkedin.com/shareArticle?mini=true&ro=true&trk=frontpage&title=A+free+online+diary&url=https://www.my-diary.org/" class="" title="Share on Linkedin" target="_blank">
+      <a href="" class="" title="Share on Linkedin" target="_blank">
       <i class="fa fa-linkedin"></i></a>
         </ul>
   </div>
@@ -255,7 +255,7 @@ div.dropdown-menu {
                 <div class="col-lg-offset-2 col-lg-8 text-center" style="margin-left:180px;weight:1250px>
                 <p class="ribet " style="margin-left:100px;weight:1000px">
                 Everyone can have their own personal diary or journal on the Internet - it's free at my-diary.org! <br>We will host your journal online at no cost. Go ahead and create your own public or private diary today.<br>Our focus is on security and privacy, and diaries are private by default.       </p>
-                <a href="/create/" class="style_button_a" style="margin-left:250px">Create your diary!</a></div>
+                <a href="" class="style_button_a" style="margin-left:250px">Create your diary!</a></div>
        
              </div>
                         </div>
@@ -274,8 +274,8 @@ div.dropdown-menu {
                  
                         <div id="652384" class="col-lg-3">
                          <div class="box_in_small">
-                         <div class="tag"><a href="/read/d/652384/blubutterfly221"><i class="fa fa-user"></i> blubutterfly221</div>
-                         <h4><i class="fa fa-book"></i>  justkeepswimming</h4></a><a href="/read/e/545889043/first-therapist-encounter">First Therapist encounter</a>
+                         <div class="tag"><a href=""><i class="fa fa-user"></i> blubutterfly221</div>
+                         <h4><i class="fa fa-book"></i>  justkeepswimming</h4></a><a href="">First Therapist encounter</a>
                          <div class="l2"></div>
                          289 entries        </div>
                         </div>
@@ -290,16 +290,16 @@ div.dropdown-menu {
                  
                         <div id="667293" class="col-lg-3">
                          <div class="box_in_small">
-                         <div class="tag"><a href="/read/d/667293/gabriela-alexis"><i class="fa fa-user"></i> Gabriela Alexis</div>
-                         <h4><i class="fa fa-book"></i>  A</h4></a><a href="/read/e/545888963/long-time-no-type">Long time No Type</a>
+                         <div class="tag"><a href=""><i class="fa fa-user"></i> Gabriela Alexis</div>
+                         <h4><i class="fa fa-book"></i>  A</h4></a><a href="">Long time No Type</a>
                          <div class="l2"></div>
                          84 entries        </div>
                         </div>
                  
                         <div id="956078" class="col-lg-3">
                          <div class="box_in_small">
-                         <div class="tag"><a href="/read/d/956078/souriene"><i class="fa fa-user"></i> souriene</div>
-                         <h4><i class="fa fa-book"></i>  her cup of tea</h4></a><a href="/read/e/545888920/i-wish-i-was-a-cactus">i wish i was a cactus</a>
+                         <div class="tag"><a href=""><i class="fa fa-user"></i> souriene</div>
+                         <h4><i class="fa fa-book"></i>  her cup of tea</h4></a><a href="">i wish i was a cactus</a>
                          <div class="l2"></div>
                          10 entries        </div>
                         </div>
@@ -311,19 +311,7 @@ div.dropdown-menu {
                   </div>
                  </div>
                  
-        <!-- Global site tag (gtag.js) - Google Analytics
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178721-1"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-178721-1');
-        </script> -->
-                    
-        
-        </footer>
-                    
+     
              
                 
 </body>

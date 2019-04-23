@@ -39,28 +39,28 @@
     <div id="navbar" class="navbar-collapse collapse">
      <ul class="nav navbar-nav">
       <li class="logo hidden-xs"><a href="/" class="logo"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo"></a></li>
-      <li><a href="/surf/">Public Diaries</a></li>
-      <li><a href="/manage/">Manage your diary</a></li>
-<li><a href="/create/">Create your own diary</a></li>
-      <li><a href="/about/">About</a></li>
-      <li><a href="/faq/">Faq</a></li>
+      <li><a href="">Public Diaries</a></li>
+      <li><a href="">Manage your diary</a></li>
+<li><a href="">Create your own diary</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Faq</a></li>
 
      </ul>
 
      <ul class="nav navbar-nav navbar-right hidden-lg hidden-md">
-      <li><a href="/manage/"><i class="fa fa-user"></i>Login</a></li> 
-      <li><a href="/create/"><i class="fa fa-sign-in"></i>Register</a></li>
-      <li><a href="/create/?action=login_facebook"><i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height='16' width='16'> Login with Facebook</a></li>
-      <li><a href="/create/?action=login_google"><i class="fa fa-google"></i>Login with Google</a></li>
+      <li><a href=""><i class="fa fa-user"></i>Login</a></li> 
+      <li><a href=""><i class="fa fa-sign-in"></i>Register</a></li>
+      <li><a href=""><i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height='16' width='16'> Login with Facebook</a></li>
+      <li><a href=""><i class="fa fa-google"></i>Login with Google</a></li>
      </ul>
   <ul id="socbar" class="nav navbar-nav navbar-right social">
-  <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.my-diary.org/logout/" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
+  <a href="" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
   <i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"></a>
-  <a href="https://twitter.com/intent/tweet?text=A+free+online+diary&url=https://www.my-diary.org/logout/" class="" title="Share on Twitter" target="_blank" >
+  <a href="" class="" title="Share on Twitter" target="_blank" >
   <i class="fa fa-twitter"></i></a>
-  <a href="https://plus.google.com/share?url=https://www.my-diary.org/logout/" class="" title="Share on Google+" target="_blank" >
+  <a href="" class="" title="Share on Google+" target="_blank" >
   <i class="fa fa-google-plus"></i></a>
-  <a href="http://www.linkedin.com/shareArticle?mini=true&ro=true&trk=frontpage&title=A+free+online+diary&url=https://www.my-diary.org/logout/" class="" title="Share on Linkedin" target="_blank">
+  <a href="" class="" title="Share on Linkedin" target="_blank">
   <i class="fa fa-linkedin"></i></a>
   
   </ul>
@@ -86,10 +86,10 @@
   <li class="text-center">Welcome!</li> 
   </ul>
   <ul class="nav navbar-nav navbar-right">
-  <li><a href="/manage/"><i class="fa fa-user"></i>Login</a></li> 
-  <li><a href="/create/"><i class="fa fa-sign-in"></i>Register</a></li>
-  <li><a href="/create/?action=login_facebook"><i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"> Login with Facebook</a></li>
-  <li><a href="/create/?action=login_google"><i class="fa fa-google"></i>Login with Google</a></li>
+  <li><a href=""><i class="fa fa-user"></i>Login</a></li> 
+  <li><a href=""><i class="fa fa-sign-in"></i>Register</a></li>
+  <li><a href=""><i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"> Login with Facebook</a></li>
+  <li><a href="e"><i class="fa fa-google"></i>Login with Google</a></li>
   </ul>
  </div>
 </div> </div></div>
@@ -106,7 +106,7 @@
 
   <div class="col-lg-8 col-lg-offset-2">
    <div class="box_in">
-<p>Where do you want to go next?<br>Check out <a href="https://www.my-poetry.com">https://www.my-poetry.com</a><!-- SiteSearch Google -->
+<p>Where do you want to go next?<br>Check out <a href="">https://www.my-poetry.com</a>
 <form method="get" action="//www.google.com/custom" target="_top">
 <table border="0" bgcolor="#ffffff">
 <tr><td nowrap="nowrap" valign="top" align="left" height="32">
@@ -134,37 +134,25 @@ border="0" alt="Google"></img></a>
 </td>
 </tr>
 </table>
-<!-- <input type="hidden" name="client" value="pub-8439362526486885"></input>
-<input type="hidden" name="forid" value="1"></input>
-<input type="hidden" name="ie" value="ISO-8859-1"></input>
-<input type="hidden" name="oe" value="ISO-8859-1"></input>
-<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"></input>
-<input type="hidden" name="hl" value="en"></input> -->
+
 
 </td></tr></table>
 </form>
-<!-- SiteSearch Google -->
-</div><br><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- my-diary new -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8439362526486885"
-     data-ad-slot="7241766955"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
+</div><br>
+
+
 <p>
-<a href="https://upnode.no/">Visit upnode.no for premium hosting solutions</a>
+<a href="">Visit upnode.no for premium hosting solutions</a>
 <br><div class="box_in">
 <p>
-You can support my-diary.org by <a href="https://www.my-diary.org/donate/">donating</a> or registering a domain through <a href="http://domains.my-diary.org/"> domains.my-diary.org</a>.
+You can support my-diary.org by <a href="">donating</a> or registering a domain through <a href=""> domains.my-diary.org</a>.
 <br>
 
   <div class='row'>
    <div class='col-lg-8 borderleft'>
     <h3>Diary Login</h3>
-    <form class='form_class' action="/edit/" method="post" name="login">
+    <form class='form_class' action="" method="post" name="login">
      <div class='row'>
       <div class='col-lg-3'>
        <label for='exampleInputName2'>Email</label>
@@ -189,8 +177,8 @@ You can support my-diary.org by <a href="https://www.my-diary.org/donate/">donat
 	</div> 
    <div class='col-lg-4'>
 	<h3>or login using</h3>
-	 <a href='/create/?action=login_facebook' class='btn btn-default style_button mb'><i class='fa fa-facebookx' aria-hidden='true'></i><img src='assets/fb.png' height='16' width='16'> Facebook</a>
-	  <a href='/create/?action=login_google' class='btn btn-default style_button mb'><i class='fa fa-google-plus' aria-hidden='true'></i> Google</a>
+	 <a href='' class='btn btn-default style_button mb'><i class='fa fa-facebookx' aria-hidden='true'></i><img src='assets/fb.png' height='16' width='16'> Facebook</a>
+	  <a href='' class='btn btn-default style_button mb'><i class='fa fa-google-plus' aria-hidden='true'></i> Google</a>
 	</div></div></form></div>
    </div>
   </div>
@@ -225,11 +213,8 @@ You can support my-diary.org by <a href="https://www.my-diary.org/donate/">donat
   </div>
   </footer>
  
-<!--
-<script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/0.0.11/push.min.js"></script>
-<script> Push.Permission.request();</script>
--->
-<script>$(function(){setTimeout(function(){return $(".fbar").animate({height:"toggle"},"slow")},450);return $("#fok").on("click",function(){$("#fbarwrap").css("margin-bottom","0px");$(".fbar").animate({height:"toggle"},"slow");return 1})});</script>
+
+
  </body>
 </html>
 

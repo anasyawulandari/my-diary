@@ -7,3 +7,8 @@ class akun_model extends CI_Model{
         return $this->db->insert_id();;
     }
 }
+public function tambahDataContent($data)
+	{
+		//use query builder to insert $data to table "deviants"
+		$this->db->insert("contents", $data);
+	}

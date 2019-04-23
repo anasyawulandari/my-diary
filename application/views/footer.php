@@ -44,7 +44,6 @@
         border:0.5px  solid grey !important;
         margin-top:15px;
         width:1130px;
-     /* margin-right: 400px; */
        margin-left:135px; 
      
 }
@@ -68,7 +67,7 @@
                </div>
                <div class="col-lg-4 text-left">
                <h4 class="foot1">Feel free to try out the (beta) app for <br>Android</h4>
-               <div class="link"><a href="https://play.google.com/store/apps/details?id=no.bellum.diary">my-diary.org app</a><br>
+               <div class="link"><a href="">my-diary.org app</a><br>
                <small>Google Play and the Google Play logo are trademarks of Google Inc.</small>
                </div>
                </div> 
@@ -81,7 +80,7 @@
                <div class="col-lg-6 text-right"> 
                 <div class="foot2">
                 &copy; my-diary.org. All rights reserved. 
-                <br> <small class="ket">Questions/feedback/problems? <a href="/contact/">Contact me</a></small>
+                <br> <small class="ket">Questions/feedback/problems? <a href="">Contact me</a></small>
                </div> 
                 </div>
               </div>

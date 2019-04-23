@@ -35,44 +35,44 @@
     <div id="navbar" class="navbar-collapse collapse">
      <ul class="nav navbar-nav">
       <li class="logo hidden-xs"><a href="/" class="logo"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo"></a></li>
-      <li><a href="/surf/">Public Diaries</a></li>
-      <li><a href="/manage/">Manage your diary</a></li>
+      <li><a href="">Public Diaries</a></li>
+      <li><a href="">Manage your diary</a></li>
 
-      <li><a href="/about/">About</a></li>
-      <li><a href="/faq/">Faq</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Faq</a></li>
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
  <li class="nav-item dropdown">
   <a class="nav-link dropdown-toggle" href="/?hl=reset" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   <span class="flag-icon flag-icon-us"> </span> Language</a>
   <div class="dropdown-menu" aria-labelledby="dropdown09">
-<p>   <a class="dropdown-item" href="/?hl=no"><span class="flag-icon flag-icon-no"> </span>  Norwegian</a>
-<p>   <a class="dropdown-item" href="/?hl=en"><span class="flag-icon flag-icon-us"> </span>  English</a>
-<p>   <a class="dropdown-item" href="/?hl=th"><span class="flag-icon flag-icon-th"> </span>  Thai</a>
+<p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-no"> </span>  Norwegian</a>
+<p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-us"> </span>  English</a>
+<p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-th"> </span>  Thai</a>
   </div>
  </li>
 
      </ul>
 
      <ul class="nav navbar-nav hidden-lg hidden-md hidden-sm">
-      <li><a href="/edit/?action=lookup"><i class="fa fa-book"></i>My entries</a></li> 
-      <li><a href="/edit/?action=new"><i class="fa fa-plus"></i>Write new entry</a></li>
-      <li><a href="/edit/?action=account"><i class="fa fa-user"></i>Account</a></li>
-      <li><a href="/edit/?action=messages"><i class="fa fa-envelope"></i>Messages</a></li>
-      <li><a href="/edit/?action=donate"><i class="fa fa-gift"></i>Donate</a></li>
-      <li><a href="/edit/?action=show_log"><i class="fa fa-history"></i>History</a></li>
+      <li><a href=""><i class="fa fa-book"></i>My entries</a></li> 
+      <li><a href=""><i class="fa fa-plus"></i>Write new entry</a></li>
+      <li><a href=""><i class="fa fa-user"></i>Account</a></li>
+      <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
+      <li><a href=""><i class="fa fa-gift"></i>Donate</a></li>
+      <li><a href=""><i class="fa fa-history"></i>History</a></li>
       
-   <li><a href="/edit/?action=langs"><i class="fa fa-edit"></i>Languages</a></li>
-      <li><a href="/logout"><i class="fa fa-sign-out"></i>Logout</a></li>
+   <li><a href=""><i class="fa fa-edit"></i>Languages</a></li>
+      <li><a href=""><i class="fa fa-sign-out"></i>Logout</a></li>
      </ul> 
   <ul id="socbar" class="nav navbar-nav navbar-right social">
-  <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.my-diary.org/d/959863" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
+  <a href="" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
   <i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"></a>
-  <a href="https://twitter.com/intent/tweet?text=A+free+online+diary&url=https://www.my-diary.org/d/959863" class="" title="Share on Twitter" target="_blank" >
+  <a href="" class="" title="Share on Twitter" target="_blank" >
   <i class="fa fa-twitter"></i></a>
-  <a href="https://plus.google.com/share?url=https://www.my-diary.org/d/959863" class="" title="Share on Google+" target="_blank" >
+  <a href="" class="" title="Share on Google+" target="_blank" >
   <i class="fa fa-google-plus"></i></a>
-  <a href="http://www.linkedin.com/shareArticle?mini=true&ro=true&trk=frontpage&title=A+free+online+diary&url=https://www.my-diary.org/d/959863" class="" title="Share on Linkedin" target="_blank">
+  <a href="">
   <i class="fa fa-linkedin"></i></a>
   
   </ul>
@@ -94,18 +94,18 @@
    </div>
   <div id="navbar1" class="navbar-collapse collapse">
   <ul class="nav navbar-nav">
-   <li><a href="/edit/?action=lookup"><i class="fa fa-book"></i>My entries</a></li> 
-   <li><a href="/edit/?action=new"><i class="fa fa-plus"></i>Write new entry </a></li>
-   <li><a href="/edit/?action=account"><i class="fa fa-user"></i>Account</a></li>
-   <li><a href="/edit/?action=messages"><i class="fa fa-envelope"></i>Messages</a></li>
-   <li><a href="/edit/?action=donate"><i class="fa fa-gift"></i>Donate</a></li>
-   <li><a href="/edit/?action=show_log"><i class="fa fa-history"></i>History</a></li>
-   <li><a href="/edit/?action=langs"><i class="fa fa-edit"></i>Languages</a></li>
+   <li><a href=""><i class="fa fa-book"></i>My entries</a></li> 
+   <li><a href=""><i class="fa fa-plus"></i>Write new entry </a></li>
+   <li><a href=""><i class="fa fa-user"></i>Account</a></li>
+   <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
+   <li><a href=""><i class="fa fa-gift"></i>Donate</a></li>
+   <li><a href=""><i class="fa fa-history"></i>History</a></li>
+   <li><a href=""><i class="fa fa-edit"></i>Languages</a></li>
   </ul>    
   <ul class="nav navbar-nav  navbar-right">
    <li class="text-center">Welcome nasya01!</li> 
 
-  <li><a href="/logout/"><i class="fa fa-sign-out"></i>Logout</a></li>
+  <li><a href=""><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>
  </div>
  </div></div></div>
@@ -137,28 +137,28 @@
  <div class="col-md-8 my_account_details">
   <form action="" method=post class='form_class' accept-charset='UTF-8'>
   <input type=hidden name=action value=updateit><div id=accountbasics class=slab>
-  <table class='table mt2 table_borderless'><script language="javascript1.2">function showhelp(id){window.open('help.php?h=' + id,'help','height=400,width=400,resizable,scrollbars');}</script><tr>
-      <td align=right><b><a href="javascript:showhelp('name');">Your name</a></b></td>
+  <table class='table mt2 table_borderless'><tr>
+      <td align=right><b><a href="">Your name</a></b></td>
        <td><input minlength=3 maxlength=50 name=username value="nasya01"></td>
       </tr><tr>
-       <td align=right><b><a href="javascript:showhelp('email');">Your email-address</a></b></td>
-       <td><input minlength=4 maxlength=64 type="email" name="nemail" value="anasya.wulan@gmail.com"></td>
+       <td align=right><b><a href="">Your email-address</a></b></td>
+       <td><input minlength=4 maxlength=64 type="email" name="nemail" value=""></td>
       </tr><tr>
-       <td align=right><b><a href="javascript:showhelp('diaryname');">Diary name</a></b></td>
+       <td align=right><b><a href="">Diary name</a></b></td>
        <td><input minlength=3 maxlength=120 name="name" value="awd28"></td>
       </tr><tr>
-       <td align=right><b><a href="javascript:showhelp('language');">Language</a></b></td>
+       <td align=right><b><a href=";">Language</a></b></td>
        <td><input minlength=3 maxlength=20 type=text name=lang value="English"></td>
       </tr><tr>
-       <td align=right><b><a href="javascript:showhelp('web');">Web page</a></b></td>
+       <td align=right><b><a href="">Web page</a></b></td>
        <td><input type=text name=web value=""></td>
       </tr><tr>
-       <td align=right><b><a href="javascript:showhelp('reminder');">Reminder interval (days)</a></b></td>
+       <td align=right><b><a href="">Reminder interval (days)</a></b></td>
        <td><input type=text name=nag value="60"></td>
 
       <tr>
        <td>&nbsp;</td>
-       <td><input type="submit" value="update diary account"></td></tr></form></script></table> </div> </div>
+       <td><input type="submit" value="update diary account"></td></tr></form></table> </div> </div>
         <div class="col-md-4">
        <div class="row" style="margin-top:15px;">
         <div class="col-md-3">
@@ -184,11 +184,11 @@
      <input type=hidden name=action value="account_update_public">
      <label style='margin-left:20px;'>
         <input class=accountupdate prop="toggle_public" val=1 type=radio name=public value=1  onClick="document.account_update_public.submit()">  Yes
-<!--        <input class=accountupdate prop="toggle_public" val=1 type=radio name=public value=1 >  Yes -->
+
         </label>
      <label style='margin-left:15px;'>
      <input class=accountupdate prop="toggle_public" val=0 type=radio name=public value=0 checked=on onClick="document.account_update_public.submit()"> No
-<!--      <input class=accountupdate prop="toggle_public" val=0 type=radio name=public value=0 checked=on> No -->
+
   </label>
      </form>
     </td>
@@ -295,7 +295,7 @@
    </div>
    <div class="col-lg-6 text-right">
     &copy; my-diary.org. All rights reserved.
-    <br/> <small>Questions/feedback/problems? <a href="/contact/">Contact me</a></small>
+    <br/> <small>Questions/feedback/problems? <a href="">Contact me</a></small>
    </div>
   </div>
   </div>
@@ -303,7 +303,3 @@
   <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<!--
-<script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/0.0.11/push.min.js"></script>
-<script> Push.Permission.request();</script>
--->

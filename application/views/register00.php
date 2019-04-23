@@ -35,28 +35,28 @@
     <div id="navbar" class="navbar-collapse collapse">
      <ul class="nav navbar-nav">
       <li class="logo hidden-xs"><a href="/" class="logo"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo"></a></li>
-      <li><a href="/surf/">Public Diaries</a></li>
-      <li><a href="/manage/">Manage your diary</a></li>
-<li><a href="/create/">Create your own diary</a></li>
-      <li><a href="/about/">About</a></li>
-      <li><a href="/faq/">Faq</a></li>
+      <li><a href="">Public Diaries</a></li>
+      <li><a href="">Manage your diary</a></li>
+<li><a href="">Create your own diary</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Faq</a></li>
 
      </ul>
 
      <ul class="nav navbar-nav navbar-right hidden-lg hidden-md">
-      <li><a href="/manage/"><i class="fa fa-user"></i>Login</a></li> 
-      <li><a href="/create/"><i class="fa fa-sign-in"></i>Register</a></li>
-      <li><a href="/create/?action=login_facebook"><i class="fa fa-facebookx"></i><img src='<?php echo base_url('assets/fb.png')?>' height='16' width='16'> Login with Facebook</a></li>
-      <li><a href="/create/?action=login_google"><i class="fa fa-google"></i>Login with Google</a></li>
+      <li><a href=""><i class="fa fa-user"></i>Login</a></li> 
+      <li><a href="/"><i class="fa fa-sign-in"></i>Register</a></li>
+      <li><a href=""><i class="fa fa-facebookx"></i><img src='<?php echo base_url('assets/fb.png')?>' height='16' width='16'> Login with Facebook</a></li>
+      <li><a href=""><i class="fa fa-google"></i>Login with Google</a></li>
      </ul>
   <ul id="socbar" class="nav navbar-nav navbar-right social">
-  <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.my-diary.org/create/?vcode=8c5d7b1f89061dc18da27d369890463d" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
+  <a href="" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
   <i class="fa fa-facebookx"></i><img src="/images/flogo-250.png" height="16" width="16"></a>
-  <a href="https://twitter.com/intent/tweet?text=A+free+online+diary&url=https://www.my-diary.org/create/?vcode=8c5d7b1f89061dc18da27d369890463d" class="" title="Share on Twitter" target="_blank" >
+  <a href="" class="" title="Share on Twitter" target="_blank" >
   <i class="fa fa-twitter"></i></a>
-  <a href="https://plus.google.com/share?url=https://www.my-diary.org/create/?vcode=8c5d7b1f89061dc18da27d369890463d" class="" title="Share on Google+" target="_blank" >
+  <a href="" class="" title="Share on Google+" target="_blank" >
   <i class="fa fa-google-plus"></i></a>
-  <a href="http://www.linkedin.com/shareArticle?mini=true&ro=true&trk=frontpage&title=A+free+online+diary&url=https://www.my-diary.org/create/?vcode=8c5d7b1f89061dc18da27d369890463d" class="" title="Share on Linkedin" target="_blank">
+  <a href="">
   <i class="fa fa-linkedin"></i></a>
   
   </ul>
@@ -82,10 +82,10 @@
   <li class="text-center">Welcome!</li> 
   </ul>
   <ul class="nav navbar-nav navbar-right">
-  <li><a href="/manage/"><i class="fa fa-user"></i>Login</a></li> 
-  <li><a href="/create/"><i class="fa fa-sign-in"></i>Register</a></li>
-  <li><a href="/create/?action=login_facebook"><i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"> Login with Facebook</a></li>
-  <li><a href="/create/?action=login_google"><i class="fa fa-google"></i>Login with Google</a></li>
+  <li><a href="/"><i class="fa fa-user"></i>Login</a></li> 
+  <li><a href="/"><i class="fa fa-sign-in"></i>Register</a></li>
+  <li><a href=""><i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"> Login with Facebook</a></li>
+  <li><a href=""><i class="fa fa-google"></i>Login with Google</a></li>
   </ul>
  </div>
 </div> </div></div>
@@ -111,7 +111,7 @@
     <label for="Email">Email</label>
    </div> 
    <div class="col-lg-9">
-    anasya.wulan@yahoo.com
+   
     <small style='clear:both;float:left'>You use this to log in. If you forget your password, this is where we can send it.</small>
    </div>
   </div>
@@ -174,7 +174,7 @@
    <h4>Subscribe to our Newsletter:</h4>There is also a newsletter.<br>Subscribe or unsubscribe <a href="/news">here.</a><p>If you have any suggestions or problems with this<br/> Internet diary, please let us know.
    </div>
    <div class="col-lg-4 text-left">
-   <h4>Feel free to try out the (beta) app for Android</h4><a href="https://play.google.com/store/apps/details?id=no.bellum.diary">my-diary.org app</a><br><small>Google Play and the Google Play logo are trademarks of Google Inc.</small>
+   <h4>Feel free to try out the (beta) app for Android</h4><a href="">my-diary.org app</a><br><small>Google Play and the Google Play logo are trademarks of Google Inc.</small>
    </div>
    </div> 
   <div class="row"> 
@@ -183,7 +183,7 @@
    </div>
    <div class="col-lg-6 text-right"> 
     &copy; my-diary.org. All rights reserved. 
-    <br/> <small>Questions/feedback/problems? <a href="/contact/">Contact me</a></small>
+    <br/> <small>Questions/feedback/problems? <a href="">Contact me</a></small>
    </div> 
   </div>
   </div>
