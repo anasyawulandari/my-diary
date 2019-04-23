@@ -1,41 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
   <title>Manage your diary</title>
   <link rel="icon" href="/assets/img/favicon.ico" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"> 
-  <link rel="stylesheet" href="<?php echo base_url('assets/style.css')?>"/>
-  <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet"> 
-
-  
+  <link rel="stylesheet" href="<?php echo base_url('assets/style.css')?>"/>
   <style>
   body{
-    background-repeat: no-repeat !important ;
+      background-repeat: no-repeat !important ;
     background-attachment: fixed !important;
     background-size: cover; 
   }
-  .style_button_d  {
-    background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
-    border: 2px solid #46fbdf;
-    border-radius: 5px;
-    color: #46fbdf;
-    display: block;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 29px;
-    padding: 0 20px;
-    text-align: center;
-    width: 160px;
-}
   </style>
   </head>
-
-<body background="<?php echo base_url('assets/bg1')?>.jpg">
+  <body background="<?php echo base_url('assets/bg1')?>.jpg">
  <header class=""> 
  <nav class="navbar navbar-default">
  <div class="container">
@@ -56,8 +40,9 @@
       <li><a href="/surf/">Public Diaries</a></li>
       <li><a href="/manage/">Manage your diary</a></li>
 
-      <li><a href="<?php echo base_url().'Mydiary/about';?>">About</a></li>
+      <li><a href="/about/">About</a></li>
       <li><a href="/faq/">Faq</a></li>
+
 
  <li class="nav-item dropdown">
   <a class="nav-link dropdown-toggle" href="/?hl=reset" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -83,13 +68,13 @@
       <li><a href="/logout"><i class="fa fa-sign-out"></i>Logout</a></li>
      </ul> 
   <ul id="socbar" class="nav navbar-nav navbar-right social">
-  <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.my-diary.org/d/961757" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
+  <a href="http://www.facebook.com/sharer/sharer.php?u=https://www.my-diary.org/d/961711" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
   <i class="fa fa-facebookx"></i><img src="<?php echo base_url('assets/fb.png')?>" height="16" width="16"></a>
-  <a href="https://twitter.com/intent/tweet?text=A+free+online+diary&url=https://www.my-diary.org/d/961757" class="" title="Share on Twitter" target="_blank" >
+  <a href="https://twitter.com/intent/tweet?text=A+free+online+diary&url=https://www.my-diary.org/d/961711" class="" title="Share on Twitter" target="_blank" >
   <i class="fa fa-twitter"></i></a>
-  <a href="https://plus.google.com/share?url=https://www.my-diary.org/d/961757" class="" title="Share on Google+" target="_blank" >
+  <a href="https://plus.google.com/share?url=https://www.my-diary.org/d/961711" class="" title="Share on Google+" target="_blank" >
   <i class="fa fa-google-plus"></i></a>
-  <a href="http://www.linkedin.com/shareArticle?mini=true&ro=true&trk=frontpage&title=A+free+online+diary&url=https://www.my-diary.org/d/961757" class="" title="Share on Linkedin" target="_blank">
+  <a href="http://www.linkedin.com/shareArticle?mini=true&ro=true&trk=frontpage&title=A+free+online+diary&url=https://www.my-diary.org/d/961711" class="" title="Share on Linkedin" target="_blank">
   <i class="fa fa-linkedin"></i></a>
   
   </ul>
@@ -120,7 +105,7 @@
    <li><a href="/edit/?action=langs"><i class="fa fa-edit"></i>Languages</a></li>
   </ul>    
   <ul class="nav navbar-nav  navbar-right">
-   <li class="text-center">Welcome rendypratama!</li> 
+   <li class="text-center">Welcome muhzikrisy!</li> 
 
   <li><a href="/logout/"><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>
@@ -129,60 +114,22 @@
 </nav> 
 
 <main class="container">
-            <div class="row">
-<div class="col-lg-12">
- <h1 class="heading text-center">New diary entry</h1>
+            <div class="row"><div class="col-lg-12">
+ <h1 class="heading text-center">Delete Entry</h1>
  <div class="line"></div>
- <h5 class="heading text-center">Add new entry in your diary</h5>
-</div>
-    
-<div class='col-lg-12 mt2'>
- <div class='box_in search_form'>
-  <div class='row'>
-   <div class='col-md-12'>
-    <a href='?action=lookup' class='style_button_d'><i class='fa fa-arrow-left'></i> Back to index</a>
-   </div>   
-  </div>   
+ <h5 class="heading text-center">confirm delete</h5>
+ </div><div class="col-lg-12 col-lg-offset-0 mt2">
+ <div class="box_in">
+ <h1><font color=white>Please confirm deletion of entry "tubes"</h1></font>
+ <form action="" method=post>
+ <input type=hidden name=action value="CONFIRMED_eraseentry">
+ <input type=hidden name=entryid value="545894864">
+ <input type=submit value="Delete entry ">
+ <a href='?action=viewentry&entryid=545894864'> Cancel</a>
+  </form>
  </div>
 </div>
-    
-<div class="col-lg-12 col-lg-offset-0 mt2">
- <div class="box_in">
-   After writing in the diary, press "Save entry" on the top or bottom to save the entry.
-   If you don't enter anything in the 'Date'-field, the current date will be displayed.
- 
-   <form action="?i=961757" method='post' class='form_class' accept-charset='UTF-8'>
-   <table class='table mt2 table_borderless'>
-    <tr>
-     <td>Date</td>
-     <td><input type="text" name="udato" id="udato" autocomplete="off" value="2019-04-22 09:20:45" /><br><small>(yyyy-mm-dd hh:mm:ss)</small></td>
-    </tr>   
-    <tr>
-     <td>Title</td>
-     <td><input type=text name=etitle maxlength=200 id=etitle value="" autofocus>
-     <input id='savebutton1' type='submit' name='save' value="Save entry" class='btn btn-default'>
-     </td>
-
-    </tr>
- <tr>
-     <td>Entry </td>
-     <td>
-  <textarea name='entry' id='entry' rows='10' wrap='soft' required class='form-control' style='width:99%;'></textarea>
-  </td>
-    </tr>
-   <tr>
-   <td></td>
-   <td>
-    <input type=hidden name=action value=post_new><p>
-    <input type=hidden name=tkey value=dkenab>
-    <input id='savebutton2' type='submit' name='save' value="Save entry" class='btn btn-default'>
-   </td></tr><tr>
-   <td colspan=2><div id="autosave_status">Autosave is active</div>
-
-  </form>
-  </td></tr></table></div></div></div></div>
   </div>
-        </div></div>
         </main>
 <footer>
     <div class="container">
@@ -190,7 +137,7 @@
    <div class="col-lg-4 text-left">
 
     <div style="floaT:left;width:100%;">
-    <a href="#" style="floaT:left;"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo" style="width:150px;margin-right:10px;"></a>
+    <a href="#" style="floaT:left;"><img src="<?php echo base_url('assets/logo.png')?>" alt="my-diary.org logo" style="width:150px;margin-right:10px;"></a>
     </div>
     Everyone can have their own personal online diary or journal on the Internet - it's free at my-diary.org! We will host your journal online at no cost. Go ahead and create your own private or public diary today.
    </div>
@@ -212,6 +159,9 @@
   </div>
   </div>
   </footer>
+  <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 
  </body>
-</html> 
+</html>
