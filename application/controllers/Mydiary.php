@@ -41,7 +41,9 @@ class Mydiary extends CI_Controller {
     public function account(){
       $this->load->view('akun');
     }
-    
+    public function regis(){
+      $this->load->view('register00');
+    }
     
 }
 ?>
