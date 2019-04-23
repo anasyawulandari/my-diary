@@ -416,19 +416,30 @@ a.style_button_b{
 .my_account_details tr td{
 	padding-right:10px;
     font-size:14px;
-    border-line: transparent;
+    
 }
 .my_account_details tr td i{
 	color:#46fbdf;
 	margin-left:5px;
     font-size:20px;
-    border-line: transparent;
+    
 }
-
 
 .my_account_details {
     background-clip: padding-box;
     border-right: 1px solid rgba(255, 255, 255, 0.55);
     margin-top: 15px;
-    border-line: transparent;
+    
+}
+.my_account_details {
+    background-clip: padding-box;
+    border-right: 1px solid rgba(255, 255, 255, 0.55);
+    margin-top: 15px;
+}
+.table_borderless tr td{
+	border:0 none !important;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
 }
