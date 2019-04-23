@@ -160,7 +160,14 @@
      </div>
                 </div><div class='col-lg-12 mt2'>
  <div class='box_in' style='padding:20px 50px 15px;'>
- No results.</div></div></div>
+ <?php foreach($entries as $row){ ?>
+ <div>
+ <h2><?= $row->judul?></h2>
+ <?= $row->isi?> </br>
+ <?= $row->timestamp?>
+ </div>
+<?php } ?> 
+ </div></div></div>
         </main>
 <footer>
     <div class="container">

@@ -72,12 +72,12 @@
      </ul>
 
      <ul class="nav navbar-nav hidden-lg hidden-md hidden-sm">
-      <li><a href="/edit/?action=lookup"><i class="fa fa-book"></i>My entries</a></li> 
-      <li><a href="/edit/?action=new"><i class="fa fa-plus"></i>Write new entry</a></li>
-      <li><a href="/edit/?action=account"><i class="fa fa-user"></i>Account</a></li>
-      <li><a href="/edit/?action=messages"><i class="fa fa-envelope"></i>Messages</a></li>
-      <li><a href="/edit/?action=donate"><i class="fa fa-gift"></i>Donate</a></li>
-      <li><a href="/edit/?action=show_log"><i class="fa fa-history"></i>History</a></li>
+      <li><a href=""><i class="fa fa-book"></i>My entries</a></li> 
+      <li><a href=""><i class="fa fa-plus"></i>Write new entry</a></li>
+      <li><a href=""><i class="fa fa-user"></i>Account</a></li>
+      <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
+      <li><a href=""><i class="fa fa-gift"></i>Donate</a></li>
+      <li><a href=""><i class="fa fa-history"></i>History</a></li>
       
    <li><a href="/edit/?action=langs"><i class="fa fa-edit"></i>Languages</a></li>
       <li><a href="/logout"><i class="fa fa-sign-out"></i>Logout</a></li>
@@ -151,7 +151,7 @@
    After writing in the diary, press "Save entry" on the top or bottom to save the entry.
    If you don't enter anything in the 'Date'-field, the current date will be displayed.
  
-   <form action="?i=961757" method='post' class='form_class' accept-charset='UTF-8'>
+   <form action="<?= base_url('newEntry_controller/uploadEntry')?>" method='post' class='form_class' accept-charset='UTF-8'>
    <table class='table mt2 table_borderless'>
     <tr>
      <td>Date</td>
