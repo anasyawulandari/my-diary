@@ -11,7 +11,11 @@ class newEntry_controller extends CI_Controller {
     }
 
     public function index(){
-        $this->load->view('new_entry');
+        if(isset($_SESSION['sesilogin'])){
+        $this->load->view('edit');
+        }else{
+            redirect('Mydiary');
+        }
     }
 
     public function uploadEntry(){
@@ -27,6 +31,21 @@ class newEntry_controller extends CI_Controller {
                 echo'upload gagal';
             }
     }
+    
+    public function updateEntry($id_entry){
+        $data = array(
+            'timestamp' => date('Y-m-d H:i:s'),
+            'judul' => $this->input->post('etitle'),
+            'isi' => $this->input->post('entry'),
+        );
+        $where = array('id_entry'=>$id_entry);
+        if($this->db->update('tb_entry',$data,$where)){
+            echo'berhasil diupload';
+            redirect('myentrycontrol');
+        }else{
+            echo'upload gagal';
+        }
+}
 
 //     public function editEntry($id){
 //         $where = array('id_entry' => $id);

@@ -28,6 +28,19 @@ class newEntry_model extends CI_Model {
     function getWhereEntry($table,$where){
         return $this->db->get_where($table,$where);
     }
+
+    function login() {
+        $username = $this->input->POST('e', TRUE);
+        $password = $this->input->POST('p', TRUE);
+        $query = $this->db->query("SELECT * from tb_akun where username= '$username' and password= '$password' LIMIT 1");
+        if($query->num_rows() == 0){
+            return false;
+        }else{
+            $data = $query->row();
+            $_SESSION['sesilogin'] = array('id'=>$data->id_akun,'username'=>$data->username,'nama'=>$data->nama,"email"=>$data->email,"password"=>$data->password);
+            return true;
+        }
+    }
 }
 
 ?>
