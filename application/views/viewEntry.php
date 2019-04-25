@@ -126,14 +126,15 @@
 </div>
  <div class="col-lg-12 col-lg-offset-0 mt2">
   <div class="box_in">
-  <small style='font-size:12px;line-height:16px;'><i class='fa fa-calendar'></i><b> 2019-04-25 06:48:45 </b><br>
-  <i class='fa fa-pencil-square-o'></i>Originally posted:<b> 2019-04-25 06:48:53</b> (UTC)</small>
+  <small style='font-size:12px;line-height:16px;'><i class='fa fa-calendar'></i><b id='cur_date'>  </b><br>
+  <i class='fa fa-pencil-square-o'></i>Originally posted:<b> <?php echo $entry->timestamp?></b> (UTC)</small>
 
-  <h2>aS </h2>
+  <h2><?php echo $entry->judul?> </h2>
 <hr>
-
-<p>SSSS
-
+ 
+<p>
+<?php echo $entry->isi?>
+</p>
 </div></div>
 
 <div class="col-lg-12 col-lg-offset-0 mt2">
@@ -174,7 +175,15 @@
   </div>
   </footer>
   <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      var today = new Date();
+      var date = ' '+today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()+' '+today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      $('#cur_date').text(date);
+    });
+  </script>
 
  </body>
 </html>
+
