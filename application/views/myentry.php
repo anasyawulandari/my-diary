@@ -75,7 +75,7 @@
      <ul class="nav navbar-nav hidden-lg hidden-md hidden-sm">
       <li><a href=""><i class="fa fa-book"></i>My entries</a></li> 
       <li><a href=""><i class="fa fa-plus"></i>Write new entry</a></li>
-      <li><a href=""><i class="fa fa-user"></i>Account</a></li>
+      <li><a href="<?php echo base_url('mydiary/account')?>"><i class="fa fa-user"></i>Account</a></li>
       <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
       <li><a href=""><i class="fa fa-gift"></i>Donate</a></li>
       <li><a href=""><i class="fa fa-history"></i>History</a></li>
