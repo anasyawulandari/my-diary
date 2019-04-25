@@ -19,10 +19,24 @@ class newEntry_model extends CI_Model {
             return false;
         }
     }
+    
+    function getEntryById($id_akun){
+        $this->db->where('id_akun',$id_akun);
+        $query = $this->db->get("tb_entry");
+        if($query->num_rows() != 0){
+            return $query->result();
+        }else{
+            return false;
+        }
+    }
 
     function editEntry($table,$where,$data){
         $this->db->where($where);
         $this->db->update($table,$data);
+    }
+
+    function deleteEntry($table,$where){
+        $this->db->delete($table,$where);
     }
 
     function getWhereEntry($table,$where){
@@ -37,10 +51,13 @@ class newEntry_model extends CI_Model {
             return false;
         }else{
             $data = $query->row();
-            $_SESSION['sesilogin'] = array('id'=>$data->id_akun,'username'=>$data->username,'nama'=>$data->nama,"email"=>$data->email,"password"=>$data->password);
+            // $_SESSION['sesilogin'] = array('id'=>$data->id_akun,'username'=>$data->username,'nama'=>$data->nama,"email"=>$data->email,"password"=>$data->password);
+            $this->session->set_userdata('sesilogin',$data->id_akun);
             return true;
         }
     }
+
+
 }
 
 ?>

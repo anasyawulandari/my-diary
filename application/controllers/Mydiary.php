@@ -36,9 +36,9 @@ class Mydiary extends CI_Controller {
     }
     
     public function myentry(){
-      $data["entri"] = $this->newEntry_model->getEntry();
-      $this->load->view('myentry',$data);
+      redirect('myEntryControl');
     }
+
     public function logout(){
       $this->load->view('logout');
     }
@@ -53,6 +53,14 @@ class Mydiary extends CI_Controller {
       $this->load->view('editentry',['data'=>$data]);
     }
     
+    public function deleteentry($id){
+      $this->newEntry_model->deleteEntry('tb_entry',array('id_entry'=>$id));
+      redirect('mydiary/myentry');
+    }
     
+    public function viewEntry($id){
+      $data['entry'] = $this->newEntry_model->getWhereEntry('tb_entry',array('id_entry'=>$id))->row();
+      $this->load->view('viewEntry',$data);
+    }
 }
 ?>
