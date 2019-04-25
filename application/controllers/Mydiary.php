@@ -11,15 +11,13 @@ class Mydiary extends CI_Controller {
       $this->load->library(array('form_validation'));
       $this->load->helper(array('url','form'));
       $this->load->model('newEntry_model');
+      $this->load->model('akun_model');
   }
     public function index()
     {
       $this->load->view('index');
       $this->load->view('footer');
 
-    }
-    public function Viewentry(){
-      $this->load->view('viewEntry');
     }
     public function about()
     {
@@ -32,14 +30,21 @@ class Mydiary extends CI_Controller {
 
     public function newEntry()
     {
-      $this->load->view('new_entry');
+      $id= $this->session->userdata('sesilogin');
+      $data['nama'] = $this->akun_model->getuserdata($id)->nama;
+      $this->load->view('new_entry',$data);
     }
+
     public function edit(){
-      $this->load->view('edit');
+      $id= $this->session->userdata('sesilogin');
+      $data['nama'] = $this->akun_model->getuserdata($id)->nama;
+      $this->load->view('edit',$data);
     }
     
     public function myentry(){
-      redirect('myEntryControl');
+      $id= $this->session->userdata('sesilogin');
+      $data['nama'] = $this->akun_model->getuserdata($id)->nama;
+      redirect('myEntryControl',$data);
     }
 
     public function logout(){

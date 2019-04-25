@@ -6,7 +6,11 @@ class akun_model extends CI_Model{
         $this->db->insert($tabel,$data);
         return $this->db->insert_id();
     }
-}
+
+    public function getuserdata($id_akun){
+        return $this->db->get_where('tb_akun',array('id_akun',$id_akun))->row();
+    }
+
 
  function login() {
     $username = $this->input->POST('e', TRUE);
@@ -20,8 +24,11 @@ class akun_model extends CI_Model{
         return true;
     }
 }
+
 public function tambahDataContent($data)
 	{
 		//use query builder to insert $data to table "deviants"
 		$this->db->insert("contents", $data);
-	}
+    }
+    
+}
