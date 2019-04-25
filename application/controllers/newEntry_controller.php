@@ -12,10 +12,12 @@ class newEntry_controller extends CI_Controller {
 
     public function index(){
         if(isset($_SESSION['sesilogin'])){
-        $this->load->view('edit');
+            $this->load->view('edit');
         }else{
             redirect('Mydiary');
         }
+        
+   
     }
 
     public function uploadEntry(){
@@ -46,6 +48,7 @@ class newEntry_controller extends CI_Controller {
             echo'upload gagal';
         }
 }
+
 
 //     public function editEntry($id){
 //         $where = array('id_entry' => $id);

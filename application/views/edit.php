@@ -56,7 +56,7 @@
 
      <ul class="nav navbar-nav hidden-lg hidden-md hidden-sm">
       <li><a href="<?php echo base_url().'MyEntryControl/myentry';?>"><i class="fa fa-book"></i>My entries</a></li> 
-      <li><a href="<?php echo base_url().'Mydiary/newEntry';?>"><i class="fa fa-plus"></i>Write new entry</a></li>
+      <li><a href="<?php echo base_url('mydiary/newEntry')?>"><i class="fa fa-plus"></i>Write new entry</a></li>
       <li><a href=""><i class="fa fa-user"></i>Account</a></li>
       <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
       <li><a href=""><i class="fa fa-gift"></i>Donate</a></li>
@@ -94,18 +94,18 @@
    </div>
   <div id="navbar1" class="navbar-collapse collapse">
   <ul class="nav navbar-nav">
-   <li><a href="/edit/?action=lookup"><i class="fa fa-book"></i>My entries</a></li> 
-   <li><a href="/edit/?action=new"><i class="fa fa-plus"></i>Write new entry </a></li>
-   <li><a href="/edit/?action=account"><i class="fa fa-user"></i>Account</a></li>
-   <li><a href="/edit/?action=messages"><i class="fa fa-envelope"></i>Messages</a></li>
-   <li><a href="/edit/?action=donate"><i class="fa fa-gift"></i>Donate</a></li>
-   <li><a href="/edit/?action=show_log"><i class="fa fa-history"></i>History</a></li>
-   <li><a href="/edit/?action=langs"><i class="fa fa-edit"></i>Languages</a></li>
+   <li><a href=""><i class="fa fa-book"></i>My entries</a></li> 
+   <li><a href="<?php echo base_url('mydiary/newEntry')?>"><i class="fa fa-plus"></i>Write new entry </a></li>
+   <li><a href="t"><i class="fa fa-user"></i>Account</a></li>
+   <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
+   <li><a href=""><i class="fa fa-gift"></i>Donate</a></li>
+   <li><a href=""><i class="fa fa-history"></i>History</a></li>
+   <li><a href=""><i class="fa fa-edit"></i>Languages</a></li>
   </ul>    
   <ul class="nav navbar-nav  navbar-right">
-   <li class="text-center">Welcome nasya01!</li> 
+   <li class="text-center">Welcome</li> 
 
-  <li><a href="/logout/"><i class="fa fa-sign-out"></i>Logout</a></li>
+  <li><a href=""><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>
  </div>
  </div></div></div>
@@ -117,7 +117,7 @@
      <div class="line"></div>
      <h5 class="heading text-center">Welcome to your diary</h5>
     </div>
-                <div class="col-lg-12 col-lg-offset-0">
+  <div class="col-lg-12 col-lg-offset-0">
      <div class="box_in"><p><h3>Welcome to your diary</h3>
 <div id=welcometext class=slab>
 <br>This is the user-interface for your diary. On the 'Account'-page, you can change the information about
@@ -126,7 +126,7 @@ your diary, such as email-address, diary-name, username and password. <p>Use the
 Under 'Account', you can have information about yourself. If your diary is public, others can see the description you put there.<br>
 To make a new entry in your diary, choose 'Write'. To read your previous entries, choose 'Past entries'.
 <p>
-Click <a href="/edit/?action=tip">here </a>to tell a friend about the diary.
+Click <a href="">here </a>to tell a friend about the diary.
 <p>
 
 <p><b>Your diary is private. Others will not see what you write.</b>
@@ -134,7 +134,7 @@ Click <a href="/edit/?action=tip">here </a>to tell a friend about the diary.
 Feel free to try out the (beta) <a target=_new href="https://www.my-diary.org/app/">Android app</a>
 <p>
 If you have any questions or suggestions, please feel free to mail me at <a href="mailto:support@my-diary.org">support@my-diary.org</a>
-or use the <a href="/contact/" target=_new>contact-form</a>. There is also a <a href="/news/" target=_new>newsletter</a>.
+or use the <a href="" target=_new>contact-form</a>. There is also a <a href="" target=_new>newsletter</a>.
 <p>
 </div><h3>Recent changes</h3>
 <ul>
