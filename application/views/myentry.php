@@ -161,20 +161,35 @@
      </div>
                 </div><div class='col-lg-12 mt2'>
  <div class='box_in' style='padding:20px 50px 15px;'>
-
- 
- <?php if($entri != null) foreach($entri as $row){ ?>
- <div>
- <h2><?= $row->judul?></h2>
- <?= $row->isi?> </br>
- <?= $row->timestamp?>
- <a href= "<?php echo base_url('Mydiary/editentry/').$row->id_entry?>" class="btn btn-primary">
-Edit</a>
-<a href= "<?php echo base_url('Mydiary/deleteentry/').$row->id_entry?>" class="btn btn-primary">
-Hapus</a>
+  <div class='row '>
+   <div class='col-lg-12 '>
+     <div class='row diary_entry'>
+      <div class='col-md-3'>
+      <div>Date</div>
+      </div>
+      <div class='col-md-6'>
+      <div>Entry title</div>
+      </div>
+      <div class='col-md-3 my_diary_options'>Action
+      </div>
+     </div>
+<?php if($entri != null) foreach($entri as $row){ ?>
+  <div class='row diary_entry'>
+  <div class='col-md-3'>
+  <div><?= $row->timestamp?></div>
+  </div>
+  <div class='col-md-6'>
+  <div><?= $row->judul?></a></div>
+  </div>
+  <div class='col-md-3 my_diary_options'>
+  <a href=''><i class='fa fa-eye'></i></a>
+  <a href='<?php echo base_url('Mydiary/editentry/').$row->id_entry?>'><i class='fa fa-pencil-square-o'></i></a>
+  <a href='<?php echo base_url('Mydiary/deleteentry/').$row->id_entry?>'><i class='fa fa-remove'></i></a>
+  </div>
  </div>
 <?php } ?> 
 
+ 
  </div></div></div>
         </main>
 <footer>

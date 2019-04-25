@@ -105,7 +105,7 @@
   <ul class="nav navbar-nav  navbar-right">
    <li class="text-center">Welcome</li> 
 
-  <li><a href=""><i class="fa fa-sign-out"></i>Logout</a></li>
+  <li><a href="<?php echo base_url().'Mydiary/logout';?>"><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>
  </div>
  </div></div></div>

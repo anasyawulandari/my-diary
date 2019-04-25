@@ -111,7 +111,7 @@
    </div>
   <div id="navbar1" class="navbar-collapse collapse">
   <ul class="nav navbar-nav">
-   <li><a href=""><i class="fa fa-book"></i>My entries</a></li> 
+   <li><a href="<?php echo base_url().'Mydiary/myentry';?>"><i class="fa fa-book"></i>My entries</a></li> 
    <li><a href=""><i class="fa fa-plus"></i>Write new entry </a></li>
    <li><a href=""><i class="fa fa-user"></i>Account</a></li>
    <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
