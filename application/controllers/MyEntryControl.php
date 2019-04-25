@@ -8,6 +8,7 @@ class MyEntryControl extends CI_Controller {
         $this->load->library(array('form_validation'));
         $this->load->helper(array('url','form'));
         $this->load->model('newEntry_model');
+        $this->load->model('akun_model');
     }
 
     function index(){
@@ -15,6 +16,7 @@ class MyEntryControl extends CI_Controller {
         
         if($id){
             $data["entri"] = $this->newEntry_model->getEntryById($id);
+            $data['nama'] = $this->akun_model->getuserdata($id)->nama;
             $this->load->view('myentry',$data);    
         }else{
             redirect('/');

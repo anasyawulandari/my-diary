@@ -121,7 +121,7 @@
    <li><a href=""><i class="fa fa-edit"></i>Languages</a></li>
   </ul>    
   <ul class="nav navbar-nav  navbar-right">
-   <li class="text-center">Welcome</li> 
+   <li class="text-center">Welcome <?php echo $nama?>!</li> 
 
   <li><a href="<?php echo base_url().'Mydiary/logout';?>"><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>
@@ -177,13 +177,13 @@ Hapus</a>
 
  </div></div></div>
         </main>
-<footer>
+        <footer>
     <div class="container">
   <div class="row ">
    <div class="col-lg-4 text-left">
 
     <div style="floaT:left;width:100%;">
-    <a href="#" style="floaT:left;"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo" style="width:150px;margin-right:10px;"></a>
+    <a href="#" style="floaT:left;"><img src="<?php echo base_url('assets/logo.png')?>" alt="my-diary.org logo" style="width:150px;margin-right:10px;"></a>
     </div>
     Everyone can have their own personal online diary or journal on the Internet - it's free at my-diary.org! We will host your journal online at no cost. Go ahead and create your own private or public diary today.
    </div>
@@ -191,7 +191,7 @@ Hapus</a>
    <h4>Subscribe to our Newsletter:</h4>There is also a newsletter.<br>Subscribe or unsubscribe <a href="/news">here.</a><p>If you have any suggestions or problems with this<br/> Internet diary, please let us know.
    </div>
    <div class="col-lg-4 text-left">
-   <h4>Feel free to try out the (beta) app for Android</h4><a href="</small>
+   <h4>Feel free to try out the (beta) app for Android</h4><a href="https://play.google.com/store/apps/details?id=no.bellum.diary">my-diary.org app</a><br><small>Google Play and the Google Play logo are trademarks of Google Inc.</small>
    </div>
    </div>
   <div class="row">
@@ -200,11 +200,11 @@ Hapus</a>
    </div>
    <div class="col-lg-6 text-right">
     &copy; my-diary.org. All rights reserved.
-    <br/> <small>Questions/feedback/problems? <a href="">Contact me</a></small>
+    <br/> <small>Questions/feedback/problems? <a href="/contact/">Contact me</a></small>
    </div>
   </div>
   </div>
   </footer>
-
+ 
  </body>
 </html>

@@ -42,9 +42,7 @@ class Mydiary extends CI_Controller {
     }
     
     public function myentry(){
-      $id= $this->session->userdata('sesilogin');
-      $data['nama'] = $this->akun_model->getuserdata($id)->nama;
-      redirect('myEntryControl',$data);
+      redirect('myEntryControl');
     }
 
     public function logout(){

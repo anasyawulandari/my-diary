@@ -120,7 +120,7 @@
    <li><a href=""><i class="fa fa-edit"></i>Languages</a></li>
   </ul>    
   <ul class="nav navbar-nav  navbar-right">
-   <li class="text-center">Welcome</li> 
+   <li class="text-center">Welcome <?php echo $nama?>!</li> 
 
   <li><a href="<?php echo base_url().'Mydiary/logout';?>"><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>
