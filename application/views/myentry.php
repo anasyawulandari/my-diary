@@ -179,10 +179,10 @@
   <div><?= $row->timestamp?></div>
   </div>
   <div class='col-md-6'>
-  <div><?= $row->judul?></a></div>
+  <div><?= $row->judul?></div>
   </div>
   <div class='col-md-3 my_diary_options'>
-  <a href=''><i class='fa fa-eye'></i></a>
+  <a href='<?php echo base_url('Mydiary/viewEntry/').$row->id_entry?>'><i class='fa fa-eye'></i></a>
   <a href='<?php echo base_url('Mydiary/editentry/').$row->id_entry?>'><i class='fa fa-pencil-square-o'></i></a>
   <a href='<?php echo base_url('Mydiary/deleteentry/').$row->id_entry?>'><i class='fa fa-remove'></i></a>
   </div>
