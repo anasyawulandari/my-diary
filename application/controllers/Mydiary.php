@@ -66,6 +66,8 @@ class Mydiary extends CI_Controller {
     
     public function viewEntry($id){
       $data['entry'] = $this->newEntry_model->getWhereEntry('tb_entry',array('id_entry'=>$id))->row();
+      $id_akun= $this->session->userdata('sesilogin');
+      $data['nama'] = $this->akun_model->getuserdata($id_akun)->nama;
       $this->load->view('viewEntry',$data);
     }
 }
