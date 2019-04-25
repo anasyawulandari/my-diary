@@ -64,8 +64,8 @@
   <a class="nav-link dropdown-toggle" href="/?hl=reset" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   <span class="flag-icon flag-icon-us"> </span> Language</a>
   <div class="dropdown-menu" aria-labelledby="dropdown09">
-<p>   <a class="dropdown-item" href="/?hl=no"><span class="flag-icon flag-icon-no"> </span>  Norwegian</a>
-<p>   <a class="dropdown-item" href="/?hl=en"><span class="flag-icon flag-icon-us"> </span>  English</a>
+<p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-no"> </span>  Norwegian</a>
+<p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-us"> </span>  English</a>
 <p>   <a class="dropdown-item" href="/?hl=th"><span class="flag-icon flag-icon-th"> </span>  Thai</a>
   </div>
  </li>
@@ -113,7 +113,7 @@
   <div id="navbar1" class="navbar-collapse collapse">
   <ul class="nav navbar-nav">
    <li><a href=""><i class="fa fa-book"></i>My entries</a></li> 
-   <li><a href=""><i class="fa fa-plus"></i>Write new entry </a></li>
+   <li><a href="<?php echo base_url().'Mydiary/newEntry';?>"><i class="fa fa-plus"></i>Write new entry </a></li>
    <li><a href=""><i class="fa fa-user"></i>Account</a></li>
    <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
    <li><a href=""><i class="fa fa-gift"></i>Donate</a></li>
@@ -123,7 +123,7 @@
   <ul class="nav navbar-nav  navbar-right">
    <li class="text-center">Welcome</li> 
 
-  <li><a href=""><i class="fa fa-sign-out"></i>Logout</a></li>
+  <li><a href="<?php echo base_url().'Mydiary/logout';?>"><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>
  </div>
  </div></div></div>
@@ -145,7 +145,7 @@
          <a href="<?php echo base_url().'Mydiary/newEntry';?>" class='style_button_d'><i class='fa fa-plus'></i> Write new entry</a>
          </div>
          <div class='col-md-3'>
-         <div style='line-height: 32px;text-align:center;'> 0 entries</div>
+         <div style='line-height: 32px;text-align:center;'> <?= $this->db->count_all_results('tb_entry');?> entries </div>
          </div>
          <div class='col-md-1'></div> 
          <div class='col-md-4'>

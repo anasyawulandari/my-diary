@@ -6,32 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Manage your diary</title>
   <link rel="icon" href="/assets/img/favicon.ico" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"> 
-  <link rel="stylesheet" href="<?php echo base_url('assets/style.css')?>"/>
-  <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet"> 
-
-  
+  <link rel="stylesheet" href="<?php echo base_url('assets/style.css')?>"/>
   <style>
   body{
     background-repeat: no-repeat !important ;
     background-attachment: fixed !important;
     background-size: cover; 
   }
-  .style_button_d  {
-    background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
-    border: 2px solid #46fbdf;
-    border-radius: 5px;
-    color: #46fbdf;
-    display: block;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 29px;
-    padding: 0 20px;
-    text-align: center;
-    width: 160px;
-}
   </style>
   </head>
 
@@ -42,7 +25,7 @@
   <div class="row">
    <div class="col-lg-12">
     <div class="navbar-header">
-     <a href="/" class="hidden-lg hidden-sm hidden-md"><img src="/assets/img/logo_small.png" alt="my-diary.org logo"></a>   
+     <a href="/" class="hidden-lg hidden-sm hidden-md"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo"></a>   
      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
      <span class="sr-only">Toggle navigation</span>
      <span class="icon-bar"></span>
@@ -56,18 +39,18 @@
       <li><a href="">Public Diaries</a></li>
       <li><a href="">Manage your diary</a></li>
 
-      <li><a href="<?php echo base_url().'Mydiary/about';?>">About</a></li>
+      <li><a href="">About</a></li>
       <li><a href="">Faq</a></li>
 
- <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="/?hl=reset" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  <span class="flag-icon flag-icon-us"> </span> Language</a>
-  <div class="dropdown-menu" aria-labelledby="dropdown09">
-<p>   <a class="dropdown-item" href="/?hl=no"><span class="flag-icon flag-icon-no"> </span>  Norwegian</a>
-<p>   <a class="dropdown-item" href="/?hl=en"><span class="flag-icon flag-icon-us"> </span>  English</a>
-<p>   <a class="dropdown-item" href="/?hl=th"><span class="flag-icon flag-icon-th"> </span>  Thai</a>
-  </div>
- </li>
+      <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="flag-icon flag-icon-us"> </span> Language</a>
+    <div class="dropdown-menu" aria-labelledby="dropdown09">
+    <p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-no"> </span>  Norwegian</a>
+    <p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-us"> </span>  English</a>
+    <p>   <a class="dropdown-item" href=""><span class="flag-icon flag-icon-th"> </span>  Thai</a>
+    </div>
+    </li>
 
      </ul>
 
@@ -79,8 +62,8 @@
       <li><a href=""><i class="fa fa-gift"></i>Donate</a></li>
       <li><a href=""><i class="fa fa-history"></i>History</a></li>
       
-   <li><a href="/edit/?action=langs"><i class="fa fa-edit"></i>Languages</a></li>
-      <li><a href="/logout"><i class="fa fa-sign-out"></i>Logout</a></li>
+   <li><a href=""><i class="fa fa-edit"></i>Languages</a></li>
+      <li><a href=""><i class="fa fa-sign-out"></i>Logout</a></li>
      </ul> 
   <ul id="socbar" class="nav navbar-nav navbar-right social">
   <a href="" class="btn btn-facebook" title="Share on Facebook" target="_blank" >
@@ -89,7 +72,7 @@
   <i class="fa fa-twitter"></i></a>
   <a href="" class="" title="Share on Google+" target="_blank" >
   <i class="fa fa-google-plus"></i></a>
-  <a href="" class="" title="Share on Linkedin" target="_blank">
+  <a href="">
   <i class="fa fa-linkedin"></i></a>
   
   </ul>
@@ -111,7 +94,7 @@
    </div>
   <div id="navbar1" class="navbar-collapse collapse">
   <ul class="nav navbar-nav">
-   <li><a href="<?php echo base_url().'Mydiary/myentry';?>"><i class="fa fa-book"></i>My entries</a></li> 
+   <li><a href=""><i class="fa fa-book"></i>My entries</a></li> 
    <li><a href=""><i class="fa fa-plus"></i>Write new entry </a></li>
    <li><a href=""><i class="fa fa-user"></i>Account</a></li>
    <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
@@ -122,66 +105,44 @@
   <ul class="nav navbar-nav  navbar-right">
    <li class="text-center">Welcome</li> 
 
-  <li><a href="<?php echo base_url().'Mydiary/logout';?>"><i class="fa fa-sign-out"></i>Logout</a></li>
+  <li><a href=""><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>
  </div>
  </div></div></div>
 </nav> 
 
 <main class="container">
-            <div class="row">
-<div class="col-lg-12">
- <h1 class="heading text-center">New diary entry</h1>
- <div class="line"></div>
- <h5 class="heading text-center">Add new entry in your diary</h5>
-</div>
-    
-<div class='col-lg-12 mt2'>
+            <div class="row"><div class="col-lg-12">
+     <h1 class="heading text-center">View entry</h1>
+     <div class="line"></div>
+     <h5 class="heading text-center">View entry</h5>
+    </div> <div class='col-lg-12 mt2'>
  <div class='box_in search_form'>
   <div class='row'>
-   <div class='col-md-12'>
-    <a href='?action=lookup' class='style_button_d'><i class='fa fa-arrow-left'></i> Back to index</a>
-   </div>   
+   <div class='col-md-12'><div class='btn-group'>
+    <a href="?action=viewentry&entryid=545896319" class='btn style_button_d'><i class='fa fa-arrow-left'></i> Previous </a>  <a href="?action=lookup" class='btn style_button_d'><i class='fa fa-arrow-book'></i> Index</a></div></div>   
   </div>   
  </div>
 </div>
-    
+ <div class="col-lg-12 col-lg-offset-0 mt2">
+  <div class="box_in">
+  <small style='font-size:12px;line-height:16px;'><i class='fa fa-calendar'></i><b> 2019-04-25 06:48:45 </b><br>
+  <i class='fa fa-pencil-square-o'></i>Originally posted:<b> 2019-04-25 06:48:53</b> (UTC)</small>
+
+  <h2>aS </h2>
+<hr>
+
+<p>SSSS
+
+</div></div>
+
 <div class="col-lg-12 col-lg-offset-0 mt2">
- <div class="box_in">
-   After writing in the diary, press "Save entry" on the top or bottom to save the entry.
-   If you don't enter anything in the 'Date'-field, the current date will be displayed.
- 
-   <form action="<?= base_url('newEntry_controller/uploadEntry')?>" method='post' class='form_class' accept-charset='UTF-8'>
-   <table class='table mt2 table_borderless'>
-    <tr>
-     <td>Date</td>
-     <td><input type="text" name="udato" id="udato" autocomplete="off" value="2019-04-22 09:20:45" /><br><small>(yyyy-mm-dd hh:mm:ss)</small></td>
-    </tr>   
-    <tr>
-     <td>Title</td>
-     <td><input type=text name=etitle maxlength=200 id=etitle value="" autofocus>
-     <input id='savebutton1' type='submit' name='save' value="Save entry" class='btn btn-default'>
-     </td>
+     <div class="box_in"><div class='btn-group'>
+<a href="" class='btn style_button_d'><i class='fa fa-trash'></i> Erase</a>
+<a href="" class='btn style_button_d'><i class='fa fa-edit'></i> Edit</a>
 
-    </tr>
- <tr>
-     <td>Entry </td>
-     <td>
-  <textarea name='entry' id='entry' rows='10' wrap='soft' required class='form-control' style='width:99%;'></textarea>
-  </td>
-    </tr>
-   <tr>
-   <td></td>
-   <td>
-    <input type=hidden name=action value=post_new><p>
-    <input type=hidden name=tkey value=dkenab>
-    <input id='savebutton2' type='submit' name='save' value="Save entry" class='btn btn-default'>
-   </td></tr><tr>
-   <td colspan=2><div id="autosave_status">Autosave is active</div>
-
-  </form>
-  </td></tr></table></div></div></div></div>
-  </div>
+<a target=_new href="print.php?entry=545897370" class='btn style_button_d'><i class='fa fa-print'></i> Printable version</a>
+ </div></div>
         </div></div>
         </main>
 <footer>
@@ -190,7 +151,7 @@
    <div class="col-lg-4 text-left">
 
     <div style="floaT:left;width:100%;">
-    <a href="#" style="floaT:left;"><img src="<?php echo base_url('assets/logo_small.png')?>" alt="my-diary.org logo" style="width:150px;margin-right:10px;"></a>
+    <a href="#" style="floaT:left;"><img src="<?php echo base_url('assets/logo.png')?>" alt="my-diary.org logo" style="width:150px;margin-right:10px;"></a>
     </div>
     Everyone can have their own personal online diary or journal on the Internet - it's free at my-diary.org! We will host your journal online at no cost. Go ahead and create your own private or public diary today.
    </div>
@@ -207,11 +168,13 @@
    </div>
    <div class="col-lg-6 text-right">
     &copy; my-diary.org. All rights reserved.
-    <br/> <small>Questions/feedback/problems? <a href="">Contact me</a></small>
+    <br/> <small>Questions/feedback/problems? <a href="/contact/">Contact me</a></small>
    </div>
   </div>
   </div>
   </footer>
+  <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
  </body>
-</html> 
+</html>

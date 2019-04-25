@@ -18,6 +18,9 @@ class Mydiary extends CI_Controller {
       $this->load->view('footer');
 
     }
+    public function Viewentry(){
+      $this->load->view('viewEntry');
+    }
     public function about()
     {
       $this->load->view('about');
