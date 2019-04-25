@@ -94,7 +94,7 @@
    </div>
   <div id="navbar1" class="navbar-collapse collapse">
   <ul class="nav navbar-nav">
-   <li><a href=""><i class="fa fa-book"></i>My entries</a></li> 
+   <li><a href="<?php echo base_url('mydiary/myentry')?>"><i class="fa fa-book"></i>My entries</a></li> 
    <li><a href="<?php echo base_url('mydiary/newEntry')?>"><i class="fa fa-plus"></i>Write new entry </a></li>
    <li><a href="t"><i class="fa fa-user"></i>Account</a></li>
    <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
@@ -103,7 +103,7 @@
    <li><a href=""><i class="fa fa-edit"></i>Languages</a></li>
   </ul>    
   <ul class="nav navbar-nav  navbar-right">
-   <li class="text-center">Welcome</li> 
+   <li class="text-center">Welcome <?php echo $nama?> !</li> 
 
   <li><a href="<?php echo base_url().'Mydiary/logout';?>"><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>

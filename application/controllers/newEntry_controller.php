@@ -12,8 +12,7 @@ class newEntry_controller extends CI_Controller {
 
     public function index(){
         if($this->session->userdata('sesilogin')){
-
-            $this->load->view('edit');
+            redirect('Mydiary/edit');
         }else{
             redirect('Mydiary');
         }
