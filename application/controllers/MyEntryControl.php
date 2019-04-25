@@ -11,8 +11,14 @@ class MyEntryControl extends CI_Controller {
     }
 
     function index(){
-        $data["entri"] = $this->newEntry_model->getEntry();
-        $this->load->view('myentry',$data);
+        $id = $this->session->userdata('sesilogin');
+        
+        if($id){
+            $data["entri"] = $this->newEntry_model->getEntryById($id);
+            $this->load->view('myentry',$data);    
+        }else{
+            redirect('/');
+        }
     }
 
 

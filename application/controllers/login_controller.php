@@ -17,7 +17,8 @@ class login_controller extends CI_Controller {
 
     }
     function logout(){
-        session_destroy();
+        // session_destroy();
+        $this->session->unset_userdata('sesilogin');
         redirect('Mydiary/logout');
     }
 }

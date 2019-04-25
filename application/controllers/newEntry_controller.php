@@ -11,7 +11,8 @@ class newEntry_controller extends CI_Controller {
     }
 
     public function index(){
-        if(isset($_SESSION['sesilogin'])){
+        if($this->session->userdata('sesilogin')){
+
             $this->load->view('edit');
         }else{
             redirect('Mydiary');
@@ -25,6 +26,7 @@ class newEntry_controller extends CI_Controller {
                 'timestamp' => date('Y-m-d H:i:s'),
                 'judul' => $this->input->post('etitle'),
                 'isi' => $this->input->post('entry'),
+                'id_akun' => $this->session->userdata('sesilogin')
             );
             if($this->newEntry_model->addEntry($data)){
                 echo'berhasil diupload';

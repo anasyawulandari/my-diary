@@ -162,14 +162,16 @@
                 </div><div class='col-lg-12 mt2'>
  <div class='box_in' style='padding:20px 50px 15px;'>
 
- <?php foreach($entri as $row){ ?>
+ 
+ <?php if($entri != null) foreach($entri as $row){ ?>
  <div>
  <h2><?= $row->judul?></h2>
  <?= $row->isi?> </br>
  <?= $row->timestamp?>
  <a href= "<?php echo base_url('Mydiary/editentry/').$row->id_entry?>" class="btn btn-primary">
 Edit</a>
-
+<a href= "<?php echo base_url('Mydiary/deleteentry/').$row->id_entry?>" class="btn btn-primary">
+Hapus</a>
  </div>
 <?php } ?> 
 
