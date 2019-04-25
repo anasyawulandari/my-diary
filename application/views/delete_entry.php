@@ -105,7 +105,7 @@
    <li><a href=""><i class="fa fa-edit"></i>Languages</a></li>
   </ul>    
   <ul class="nav navbar-nav  navbar-right">
-   <li class="text-center">Welcome muhzikrisy!</li> 
+   <li class="text-center">Welcome  <?php echo $nama?>!</li> 
 
   <li><a href=""><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>
@@ -120,8 +120,8 @@
  <h5 class="heading text-center">confirm delete</h5>
  </div><div class="col-lg-12 col-lg-offset-0 mt2">
  <div class="box_in">
- <h1><font color=white>Please confirm deletion of entry "tubes"</h1></font>
- <form action="" method=post>
+ <h1><font color=white>Please confirm deletion of entry "<?php echo $entry->judul?>"</h1></font>
+ <form action="<?= base_url('mydiary/deleteentry/'.$entry->id_entry);?>">
  <input type=hidden name=action value="CONFIRMED_eraseentry">
  <input type=hidden name=entryid value="545894864">
  <input type=submit value="Delete entry ">

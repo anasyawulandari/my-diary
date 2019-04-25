@@ -94,16 +94,16 @@
    </div>
   <div id="navbar1" class="navbar-collapse collapse">
   <ul class="nav navbar-nav">
-   <li><a href=""><i class="fa fa-book"></i>My entries</a></li> 
-   <li><a href=""><i class="fa fa-plus"></i>Write new entry </a></li>
-   <li><a href=""><i class="fa fa-user"></i>Account</a></li>
+   <li><a href="<?php echo base_url('mydiary/myentry')?>"><i class="fa fa-book"></i>My entries</a></li> 
+   <li><a href="<?php echo base_url('mydiary/newEntry')?>"><i class="fa fa-plus"></i>Write new entry </a></li>
+   <li><a href="<?php echo base_url('mydiary/account')?>"><i class="fa fa-user"></i>Account</a></li>
    <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
    <li><a href=""><i class="fa fa-gift"></i>Donate</a></li>
    <li><a href=""><i class="fa fa-history"></i>History</a></li>
    <li><a href=""><i class="fa fa-edit"></i>Languages</a></li>
   </ul>    
   <ul class="nav navbar-nav  navbar-right">
-   <li class="text-center">Welcome nasya01!</li> 
+   <li class="text-center">Welcome <?php echo $nama?>!</li> 
 
   <li><a href=""><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>
@@ -139,13 +139,13 @@
   <input type=hidden name=action value=updateit><div id=accountbasics class=slab>
   <table class='table mt2 table_borderless'><tr>
       <td align=right><b><a href="">Your name</a></b></td>
-       <td><input minlength=3 maxlength=50 name=username value="nasya01"></td>
+       <td><input minlength=3 maxlength=50 name=username value="<?php echo $nama?>"></td>
       </tr><tr>
        <td align=right><b><a href="">Your email-address</a></b></td>
        <td><input minlength=4 maxlength=64 type="email" name="nemail" value=""></td>
       </tr><tr>
        <td align=right><b><a href="">Diary name</a></b></td>
-       <td><input minlength=3 maxlength=120 name="name" value="awd28"></td>
+       <td><input minlength=3 maxlength=120 name="name" value="-"></td>
       </tr><tr>
        <td align=right><b><a href=";">Language</a></b></td>
        <td><input minlength=3 maxlength=20 type=text name=lang value="English"></td>

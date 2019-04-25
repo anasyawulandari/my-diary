@@ -114,7 +114,7 @@
   <ul class="nav navbar-nav">
    <li><a href=""><i class="fa fa-book"></i>My entries</a></li> 
    <li><a href="<?php echo base_url().'Mydiary/newEntry';?>"><i class="fa fa-plus"></i>Write new entry </a></li>
-   <li><a href=""><i class="fa fa-user"></i>Account</a></li>
+   <li><a href="<?php echo base_url('mydiary/account')?>"><i class="fa fa-user"></i>Account</a></li>
    <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
    <li><a href=""><i class="fa fa-gift"></i>Donate</a></li>
    <li><a href=""><i class="fa fa-history"></i>History</a></li>
@@ -184,7 +184,7 @@
   <div class='col-md-3 my_diary_options'>
   <a href='<?php echo base_url('Mydiary/viewEntry/').$row->id_entry?>'><i class='fa fa-eye'></i></a>
   <a href='<?php echo base_url('Mydiary/editentry/').$row->id_entry?>'><i class='fa fa-pencil-square-o'></i></a>
-  <a href='<?php echo base_url('Mydiary/deleteentry/').$row->id_entry?>'><i class='fa fa-remove'></i></a>
+  <a href='<?= base_url('mydiary/delete/'.$row->id_entry) ?>'><i class='fa fa-remove'></i></a>
   </div>
  </div>
 <?php } ?> 

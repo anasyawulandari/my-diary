@@ -94,8 +94,8 @@
    </div>
   <div id="navbar1" class="navbar-collapse collapse">
   <ul class="nav navbar-nav">
-   <li><a href=""><i class="fa fa-book"></i>My entries</a></li> 
-   <li><a href=""><i class="fa fa-plus"></i>Write new entry </a></li>
+   <li><a href="<?php echo base_url('mydiary/myentry')?>"><i class="fa fa-book"></i>My entries</a></li> 
+   <li><a href="<?php echo base_url('mydiary/newEntry')?>"><i class="fa fa-plus"></i>Write new entry </a></li>
    <li><a href="<?php echo base_url('mydiary/account')?>"><i class="fa fa-user"></i>Account</a></li>
    <li><a href=""><i class="fa fa-envelope"></i>Messages</a></li>
    <li><a href=""><i class="fa fa-gift"></i>Donate</a></li>
@@ -139,8 +139,8 @@
 
 <div class="col-lg-12 col-lg-offset-0 mt2">
      <div class="box_in"><div class='btn-group'>
-<a href="" class='btn style_button_d'><i class='fa fa-trash'></i> Erase</a>
-<a href="" class='btn style_button_d'><i class='fa fa-edit'></i> Edit</a>
+<a href="<?= base_url('mydiary/delete/'.$entry->id_entry) ?>" class='btn style_button_d'><i class='fa fa-trash'></i> Erase</a>
+<a href="<?php echo base_url('Mydiary/editentry/').$entry->id_entry?>" class='btn style_button_d'><i class='fa fa-edit'></i> Edit</a>
 
 <a target=_new href="print.php?entry=545897370" class='btn style_button_d'><i class='fa fa-print'></i> Printable version</a>
  </div></div>

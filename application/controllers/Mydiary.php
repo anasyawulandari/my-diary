@@ -48,12 +48,20 @@ class Mydiary extends CI_Controller {
     public function logout(){
       $this->load->view('logout');
     }
-    public function delete(){
-      $this->load->view('delete_entry');
+
+    public function delete($id){
+      $data['entry'] = $this->newEntry_model->getWhereEntry('tb_entry',array('id_entry'=>$id))->row();
+      $id_akun= $this->session->userdata('sesilogin');
+      $data['nama'] = $this->akun_model->getuserdata($id_akun)->nama;
+      $this->load->view('delete_entry',$data);
     }
+
     public function account(){
-      $this->load->view('akun');
+      $id= $this->session->userdata('sesilogin');
+      $data['nama'] = $this->akun_model->getuserdata($id)->nama;
+      $this->load->view('akun',$data);
     }
+
     public function editentry($id_entry){
       $data = $this->db->query("SELECT * FROM tb_entry WHERE id_entry='".$id_entry."' ")->row();
       $this->load->view('editentry',['data'=>$data]);
