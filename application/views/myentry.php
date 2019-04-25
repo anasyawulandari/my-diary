@@ -121,7 +121,7 @@
    <li><a href=""><i class="fa fa-edit"></i>Languages</a></li>
   </ul>    
   <ul class="nav navbar-nav  navbar-right">
-   <li class="text-center">Welcome nasya01!</li> 
+   <li class="text-center">Welcome</li> 
 
   <li><a href=""><i class="fa fa-sign-out"></i>Logout</a></li>
   </ul>
